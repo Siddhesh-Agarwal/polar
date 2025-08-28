@@ -1,22 +1,11 @@
 import { PolarHog, usePostHog } from '@/hooks/posthog'
 import {
-  AllInclusiveOutlined,
   AttachMoneyOutlined,
   CodeOutlined,
-  DiamondOutlined,
-  DiscountOutlined,
-  DonutLargeOutlined,
-  HiveOutlined,
-  LinkOutlined,
-  ShoppingBagOutlined,
-  SpaceDashboardOutlined,
-  Storefront,
-  StreamOutlined,
   TrendingUp,
   TuneOutlined,
 } from '@mui/icons-material'
 import { schemas } from '@polar-sh/client'
-import { Brain, ShoppingCart } from 'lucide-react'
 import { usePathname } from 'next/navigation'
 import { useMemo } from 'react'
 
@@ -128,143 +117,90 @@ export const useAccountRoutes = (): RouteWithActive[] => {
     .map(applyIsActive(path))
 }
 
-// internals below
-
 const generalRoutesList = (org?: schemas['Organization']): Route[] => [
   {
-    id: 'home',
-    title: 'Home',
-    icon: <SpaceDashboardOutlined fontSize="inherit" />,
-    link: `/dashboard/${org?.slug}`,
+    id: 'billing',
+    title: 'Billing',
+    icon: <AttachMoneyOutlined fontSize="inherit" />,
+    link: `/dashboard/${org?.slug}/billing`,
     checkIsActive: (currentRoute: string) =>
-      currentRoute === `/dashboard/${org?.slug}`,
-    if: true,
-  },
-  {
-    id: 'new-products',
-    title: 'Products',
-    icon: <HiveOutlined fontSize="inherit" />,
-    link: `/dashboard/${org?.slug}/products`,
-    checkIsActive: (currentRoute: string): boolean => {
-      return currentRoute.startsWith(`/dashboard/${org?.slug}/products`)
-    },
-    if: true,
-    subs: [
-      {
-        title: 'Catalogue',
-        link: `/dashboard/${org?.slug}/products`,
-        icon: <HiveOutlined fontSize="inherit" />,
-      },
-      {
-        title: 'Checkout Links',
-        link: `/dashboard/${org?.slug}/products/checkout-links`,
-        icon: <LinkOutlined fontSize="inherit" />,
-      },
-      {
-        title: 'Discounts',
-        link: `/dashboard/${org?.slug}/products/discounts`,
-        icon: <DiscountOutlined fontSize="inherit" />,
-      },
-    ],
-  },
-  {
-    id: 'usage-billing',
-    title: 'Usage Billing',
-    icon: <DonutLargeOutlined fontSize="inherit" />,
-    link: `/dashboard/${org?.slug}/usage-billing`,
-    if: true,
-    checkIsActive: (currentRoute: string): boolean => {
-      return currentRoute.startsWith(`/dashboard/${org?.slug}/usage-billing`)
-    },
-    subs: [
-      {
-        title: 'Meters',
-        link: `/dashboard/${org?.slug}/usage-billing/meters`,
-        icon: <DonutLargeOutlined fontSize="inherit" />,
-      },
-      {
-        title: 'Events',
-        link: `/dashboard/${org?.slug}/usage-billing/events`,
-        icon: <StreamOutlined fontSize="inherit" />,
-      },
-    ],
-  },
-  {
-    id: 'benefits',
-    title: 'Benefits',
-    icon: <DiamondOutlined fontSize="inherit" />,
-    link: `/dashboard/${org?.slug}/benefits`,
-    checkIsActive: (currentRoute: string): boolean => {
-      return currentRoute.startsWith(`/dashboard/${org?.slug}/benefits`)
-    },
-    if: true,
-  },
-  {
-    id: 'gateway',
-    title: 'Gateway',
-    icon: <Brain size={15} />,
-    link: `/dashboard/${org?.slug}/gateway`,
-    checkIsActive: (currentRoute: string): boolean => {
-      return currentRoute.startsWith(`/dashboard/${org?.slug}/gateway`)
-    },
+      currentRoute === `/dashboard/${org?.slug}/billing`,
     if: true,
     subs: [
       {
         title: 'Overview',
-        link: `/dashboard/${org?.slug}/gateway/overview`,
+        link: `/dashboard/${org?.slug}/billing`,
       },
       {
-        title: 'Usage',
-        link: `/dashboard/${org?.slug}/gateway/usage`,
+        title: 'Products',
+        link: `/dashboard/${org?.slug}/billing/products`,
       },
       {
-        title: 'Providers',
-        link: `/dashboard/${org?.slug}/gateway/providers`,
-      },
-    ],
-  },
-  {
-    id: 'org-sales',
-    title: 'Sales',
-    icon: <ShoppingBagOutlined fontSize="inherit" />,
-    link: `/dashboard/${org?.slug}/sales`,
-    checkIsActive: (currentRoute: string): boolean => {
-      return currentRoute.startsWith(`/dashboard/${org?.slug}/sales`)
-    },
-    if: true,
-    subs: [
-      {
-        title: 'Orders',
-        link: `/dashboard/${org?.slug}/sales`,
-        icon: <ShoppingBagOutlined fontSize="inherit" />,
+        title: 'Sales',
+        link: `/dashboard/${org?.slug}/billing/sales`,
       },
       {
         title: 'Subscriptions',
-        link: `/dashboard/${org?.slug}/sales/subscriptions`,
-        icon: <AllInclusiveOutlined fontSize="inherit" />,
+        link: `/dashboard/${org?.slug}/billing/subscriptions`,
       },
       {
-        title: 'Checkouts',
-        link: `/dashboard/${org?.slug}/sales/checkouts`,
-        icon: <ShoppingCart />,
+        title: 'Checkout Links',
+        link: `/dashboard/${org?.slug}/billing/checkout-links`,
+      },
+      {
+        title: 'Discounts',
+        link: `/dashboard/${org?.slug}/billing/discounts`,
+      },
+      {
+        title: 'Benefits',
+        link: `/dashboard/${org?.slug}/billing/benefits`,
       },
     ],
-  },
-  {
-    id: 'storefront',
-    title: 'Storefront',
-    icon: <Storefront fontSize="inherit" />,
-    link: `/dashboard/${org?.slug}/storefront`,
-    if: false,
   },
   {
     id: 'analytics',
     title: 'Analytics',
     icon: <TrendingUp fontSize="inherit" />,
     link: `/dashboard/${org?.slug}/analytics`,
+    checkIsActive: (currentRoute: string) =>
+      currentRoute === `/dashboard/${org?.slug}/analytics`,
+    if: true,
+    subs: [
+      {
+        title: 'Overview',
+        link: `/dashboard/${org?.slug}/analytics`,
+      },
+      {
+        title: 'Usage Billing',
+        link: `/dashboard/${org?.slug}/analytics/usage-billing`,
+      },
+      {
+        title: 'Benefits',
+        link: `/dashboard/${org?.slug}/analytics/benefits`,
+      },
+    ],
+  },
+  {
+    id: 'finance',
+    title: 'Finance',
+    icon: <AttachMoneyOutlined fontSize="inherit" />,
+    link: `/dashboard/${org?.slug}/finance`,
+    checkIsActive: (currentRoute: string) =>
+      currentRoute === `/dashboard/${org?.slug}/finance`,
+    if: true,
+  },
+  {
+    id: 'settings',
+    title: 'Settings',
+    icon: <TuneOutlined fontSize="inherit" />,
+    link: `/dashboard/${org?.slug}/settings`,
+    checkIsActive: (currentRoute: string) =>
+      currentRoute === `/dashboard/${org?.slug}/settings`,
     if: true,
   },
 ]
+
+// internals below
 
 const dashboardRoutesList = (org?: schemas['Organization']): Route[] => [
   ...accountRoutesList(),
