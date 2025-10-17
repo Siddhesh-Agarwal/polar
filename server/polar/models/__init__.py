@@ -10,7 +10,7 @@ from .checkout_link import CheckoutLink
 from .checkout_link_product import CheckoutLinkProduct
 from .checkout_product import CheckoutProduct
 from .custom_field import CustomField
-from .customer import BaseCustomer, Customer, PlaceholderCustomer
+from .customer import Customer
 from .customer_meter import CustomerMeter
 from .customer_seat import CustomerSeat, SeatStatus
 from .customer_session import CustomerSession
@@ -79,7 +79,6 @@ __all__ = [
     "Model",
     "TimestampedModel",
     "Account",
-    "BaseCustomer",
     "Benefit",
     "Campaign",
     "BenefitGrant",
@@ -93,7 +92,6 @@ __all__ = [
     "CustomerSeat",
     "CustomerSession",
     "CustomerSessionCode",
-    "PlaceholderCustomer",
     "CustomField",
     "Discount",
     "DiscountProduct",
