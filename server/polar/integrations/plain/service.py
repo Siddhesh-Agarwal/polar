@@ -39,14 +39,7 @@ from sqlalchemy.orm import contains_eager
 
 from polar.config import settings
 from polar.exceptions import PolarError
-from polar.models import (
-    Customer,
-    Order,
-    Organization,
-    Product,
-    User,
-    UserOrganization,
-)
+from polar.models import Customer, Order, Organization, Product, User, UserOrganization
 from polar.models.organization_review import OrganizationReview
 from polar.postgres import AsyncSession
 from polar.user.repository import UserRepository
@@ -331,8 +324,6 @@ class PlainService:
         self, session: AsyncSession, request: CustomerCardsRequest
     ) -> CustomerCard | None:
         email = request.customer.email
-        if email is None:
-            return None
 
         user_repository = UserRepository.from_session(session)
         user = await user_repository.get_by_email(email)
@@ -459,8 +450,6 @@ class PlainService:
         self, session: AsyncSession, request: CustomerCardsRequest
     ) -> CustomerCard | None:
         email = request.customer.email
-        if email is None:
-            return None
 
         statement = (
             select(Organization)
@@ -654,8 +643,6 @@ class PlainService:
         self, session: AsyncSession, request: CustomerCardsRequest
     ) -> CustomerCard | None:
         email = request.customer.email
-        if email is None:
-            return None
 
         # No need to filter out soft deleted. We want to see them in support.
         statement = select(Customer).where(func.lower(Customer.email) == email.lower())
@@ -823,8 +810,6 @@ class PlainService:
         self, session: AsyncSession, request: CustomerCardsRequest
     ) -> CustomerCard | None:
         email = request.customer.email
-        if email is None:
-            return None
 
         statement = (
             (
@@ -1106,8 +1091,6 @@ class PlainService:
         self, session: AsyncSession, request: CustomerCardsRequest
     ) -> CustomerCard | None:
         email = request.customer.email
-        if email is None:
-            return None
 
         statement = (
             select(Organization)

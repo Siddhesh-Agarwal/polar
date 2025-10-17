@@ -434,7 +434,3 @@ class EventService:
 
 
 event = EventService()
-event = EventService()
-event = EventService()
-event = EventService()
-event = EventService()
