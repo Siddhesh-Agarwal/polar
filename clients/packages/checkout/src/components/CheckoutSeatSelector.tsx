@@ -34,8 +34,14 @@ const CheckoutSeatSelector = ({
   const currency = productPrice.priceCurrency || 'usd'
   const pricePerSeat = checkout.pricePerSeat || 0
 
+  // Get min/max seats from the product price
+  const minSeats =
+    'minSeats' in productPrice ? productPrice.minSeats ?? 1 : 1
+  const maxSeats =
+    'maxSeats' in productPrice ? productPrice.maxSeats ?? 1000 : 1000
+
   const handleUpdateSeats = async (newSeats: number) => {
-    if (newSeats < 1 || newSeats > 1000 || isUpdating) return
+    if (newSeats < minSeats || newSeats > maxSeats || isUpdating) return
 
     setIsUpdating(true)
     try {
@@ -59,8 +65,8 @@ const CheckoutSeatSelector = ({
     const newSeats = parseInt(inputValue, 10)
     if (
       !isNaN(newSeats) &&
-      newSeats >= 1 &&
-      newSeats <= 1000 &&
+      newSeats >= minSeats &&
+      newSeats <= maxSeats &&
       newSeats !== seats
     ) {
       handleUpdateSeats(newSeats)
@@ -103,7 +109,7 @@ const CheckoutSeatSelector = ({
             variant="ghost"
             size="icon"
             onClick={() => handleUpdateSeats(seats - 1)}
-            disabled={seats <= 1 || isUpdating || isEditing}
+            disabled={seats <= minSeats || isUpdating || isEditing}
             className="h-10 w-10 rounded-full disabled:opacity-40"
             aria-label="Decrease seats"
           >
@@ -126,8 +132,8 @@ const CheckoutSeatSelector = ({
               onBlur={handleInputBlur}
               onKeyDown={handleInputKeyDown}
               autoFocus
-              min={1}
-              max={1000}
+              min={minSeats}
+              max={maxSeats}
               className="h-auto max-w-[4.5rem] min-w-[3.5rem] py-1.5 text-center text-2xl font-light tabular-nums"
             />
           ) : (
@@ -146,7 +152,7 @@ const CheckoutSeatSelector = ({
             variant="ghost"
             size="icon"
             onClick={() => handleUpdateSeats(seats + 1)}
-            disabled={seats >= 1000 || isUpdating || isEditing}
+            disabled={seats >= maxSeats || isUpdating || isEditing}
             className="h-10 w-10 rounded-full disabled:opacity-40"
             aria-label="Increase seats"
           >

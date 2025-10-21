@@ -390,6 +390,16 @@ class ProductPriceSeatUnit(NewProductPrice, HasPriceCurrency, ProductPrice):
         postgresql.JSONB,
         nullable=True,
     )
+    min_seats: Mapped[int | None] = mapped_column(
+        Integer,
+        nullable=True,
+        default=None,
+    )
+    max_seats: Mapped[int | None] = mapped_column(
+        Integer,
+        nullable=True,
+        default=None,
+    )
 
     def get_tier_for_seats(self, seats: int) -> SeatTier:
         for tier in self.seat_tiers.get("tiers", []):

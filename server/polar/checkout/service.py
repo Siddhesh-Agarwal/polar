@@ -193,6 +193,51 @@ CHECKOUT_CLIENT_SECRET_PREFIX = "polar_c_"
 
 
 class CheckoutService:
+    def _validate_seat_limits(
+        self, price: ProductPrice, seats: int | None
+    ) -> None:
+        """Validate that the requested number of seats is within the allowed limits."""
+        if not is_seat_price(price):
+            return
+
+        if seats is None or seats < 1:
+            raise PolarRequestValidationError(
+                [
+                    {
+                        "type": "missing",
+                        "loc": ("body", "seats"),
+                        "msg": "Seats is required for seat-based pricing.",
+                        "input": seats,
+                    }
+                ]
+            )
+
+        # Check minimum seats constraint
+        if price.min_seats is not None and seats < price.min_seats:
+            raise PolarRequestValidationError(
+                [
+                    {
+                        "type": "value_error",
+                        "loc": ("body", "seats"),
+                        "msg": f"Minimum {price.min_seats} seats required.",
+                        "input": seats,
+                    }
+                ]
+            )
+
+        # Check maximum seats constraint
+        if price.max_seats is not None and seats > price.max_seats:
+            raise PolarRequestValidationError(
+                [
+                    {
+                        "type": "value_error",
+                        "loc": ("body", "seats"),
+                        "msg": f"Maximum {price.max_seats} seats allowed.",
+                        "input": seats,
+                    }
+                ]
+            )
+
     async def list(
         self,
         session: AsyncReadSession,
@@ -355,19 +400,8 @@ class CheckoutService:
                 ) from e
 
         # Validate seats for seat-based pricing
-        if is_seat_price(price):
-            if checkout_create.seats is None or checkout_create.seats < 1:
-                raise PolarRequestValidationError(
-                    [
-                        {
-                            "type": "missing",
-                            "loc": ("body", "seats"),
-                            "msg": "Seats is required for seat-based pricing.",
-                            "input": checkout_create.seats,
-                        }
-                    ]
-                )
-        elif checkout_create.seats is not None:
+        self._validate_seat_limits(price, checkout_create.seats)
+        if not is_seat_price(price) and checkout_create.seats is not None:
             raise PolarRequestValidationError(
                 [
                     {
@@ -586,19 +620,8 @@ class CheckoutService:
         price = product.get_static_price() or product.prices[0]
 
         # Validate seats for seat-based pricing
-        if is_seat_price(price):
-            if checkout_create.seats is None or checkout_create.seats < 1:
-                raise PolarRequestValidationError(
-                    [
-                        {
-                            "type": "missing",
-                            "loc": ("body", "seats"),
-                            "msg": "Seats is required for seat-based pricing.",
-                            "input": checkout_create.seats,
-                        }
-                    ]
-                )
-        elif checkout_create.seats is not None:
+        self._validate_seat_limits(price, checkout_create.seats)
+        if not is_seat_price(price) and checkout_create.seats is not None:
             raise PolarRequestValidationError(
                 [
                     {
@@ -1572,6 +1595,7 @@ class CheckoutService:
 
         # Handle seat updates for seat-based pricing
         if checkout_update.seats is not None and is_seat_price(price):
+            self._validate_seat_limits(price, checkout_update.seats)
             checkout.seats = checkout_update.seats
             checkout.amount = price.calculate_amount(checkout_update.seats)
         elif checkout_update.seats is not None:

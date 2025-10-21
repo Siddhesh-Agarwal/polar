@@ -241,6 +241,93 @@ export const ProductPriceSeatBasedItem: React.FC<
 
   return (
     <div className="flex flex-col gap-3">
+      <div className="flex flex-col gap-3 rounded-2xl border border-gray-200 bg-gray-50 p-4 dark:border-gray-800 dark:bg-polar-900">
+        <div className="text-sm font-medium text-gray-900 dark:text-white">
+          Seat Limits
+        </div>
+        <div className="grid grid-cols-2 gap-3">
+          <FormField
+            control={control}
+            name={`prices.${index}.min_seats`}
+            rules={{
+              min: { value: 1, message: 'Must be at least 1' },
+              validate: (value) => {
+                const maxSeats = watch(`prices.${index}.max_seats`)
+                if (value && maxSeats && value > maxSeats) {
+                  return 'Minimum seats cannot be greater than maximum seats'
+                }
+                return true
+              },
+            }}
+            render={({ field }) => (
+              <FormItem>
+                <FormLabel>Minimum seats</FormLabel>
+                <FormControl>
+                  <Input
+                    {...field}
+                    type="number"
+                    min={1}
+                    value={field.value ?? ''}
+                    onChange={(e) => {
+                      const value = e.target.value ? parseInt(e.target.value) : null
+                      field.onChange(value)
+                      setValue(`prices.${index}.id`, '')
+                    }}
+                    placeholder="Optional"
+                  />
+                </FormControl>
+                <FormDescription className="text-xs">
+                  Minimum number of seats that can be purchased
+                </FormDescription>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
+
+          <FormField
+            control={control}
+            name={`prices.${index}.max_seats`}
+            rules={{
+              min: { value: 1, message: 'Must be at least 1' },
+              validate: (value) => {
+                const minSeats = watch(`prices.${index}.min_seats`)
+                if (value && minSeats && value < minSeats) {
+                  return 'Maximum seats cannot be less than minimum seats'
+                }
+                return true
+              },
+            }}
+            render={({ field }) => (
+              <FormItem>
+                <FormLabel>Maximum seats</FormLabel>
+                <FormControl>
+                  <Input
+                    {...field}
+                    type="number"
+                    min={1}
+                    value={field.value ?? ''}
+                    onChange={(e) => {
+                      const value = e.target.value ? parseInt(e.target.value) : null
+                      field.onChange(value)
+                      setValue(`prices.${index}.id`, '')
+                    }}
+                    placeholder="Optional"
+                  />
+                </FormControl>
+                <FormDescription className="text-xs">
+                  Maximum number of seats that can be purchased
+                </FormDescription>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
+        </div>
+      </div>
+
+      <div className="text-sm font-medium text-gray-900 dark:text-white">
+        Volume Tiers
+      </div>
+
       {fields.map((field, tierIndex) => {
         const isLast = tierIndex === fields.length - 1
         const isFirst = tierIndex === 0

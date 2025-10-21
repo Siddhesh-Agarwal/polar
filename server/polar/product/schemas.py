@@ -231,6 +231,26 @@ class ProductPriceSeatBasedCreate(ProductPriceCreateBase):
     seat_tiers: ProductPriceSeatTiers = Field(
         description="Tiered pricing based on seat quantity"
     )
+    min_seats: int | None = Field(
+        default=None,
+        ge=1,
+        description="Minimum number of seats that can be purchased. If not set, defaults to 1.",
+    )
+    max_seats: int | None = Field(
+        default=None,
+        ge=1,
+        description="Maximum number of seats that can be purchased. If not set, there is no limit.",
+    )
+
+    @field_validator("max_seats")
+    @classmethod
+    def validate_max_seats(cls, v: int | None, info: Any) -> int | None:
+        """Validate that max_seats is greater than or equal to min_seats."""
+        if v is not None and "min_seats" in info.data:
+            min_seats = info.data["min_seats"]
+            if min_seats is not None and v < min_seats:
+                raise ValueError("max_seats must be greater than or equal to min_seats")
+        return v
 
     def get_model_class(self) -> builtins.type[ProductPriceSeatUnitModel]:
         return ProductPriceSeatUnitModel
@@ -471,6 +491,14 @@ class ProductPriceSeatBasedBase(ProductPriceBase):
     price_currency: str = Field(description="The currency.")
     seat_tiers: ProductPriceSeatTiers = Field(
         description="Tiered pricing based on seat quantity"
+    )
+    min_seats: int | None = Field(
+        default=None,
+        description="Minimum number of seats that can be purchased.",
+    )
+    max_seats: int | None = Field(
+        default=None,
+        description="Maximum number of seats that can be purchased.",
     )
 
     @computed_field(
