@@ -293,3 +293,7 @@ class Order(CustomFieldDataMixin, MetadataMixin, RecordModel):
     @property
     def is_invoice_generated(self) -> bool:
         return self.invoice_path is not None
+
+    @property
+    def invoice_filename(self) -> str:
+        return f"Invoice-{self.invoice_number}.pdf"
