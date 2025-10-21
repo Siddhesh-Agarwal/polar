@@ -289,7 +289,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -392,7 +392,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/NotPermitted"
+                  "$ref": "#/components/schemas/polar__exceptions__NotPermitted"
                 }
               }
             }
@@ -402,7 +402,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -946,7 +946,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -1047,7 +1047,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/AlreadyCanceledSubscription"
+                  "$ref": "#/components/schemas/polar__exceptions__AlreadyCanceledSubscription"
                 }
               }
             }
@@ -1057,7 +1057,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -1067,7 +1067,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/SubscriptionLocked"
+                  "$ref": "#/components/schemas/polar__exceptions__SubscriptionLocked"
                 }
               }
             }
@@ -1158,7 +1158,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/AlreadyCanceledSubscription"
+                  "$ref": "#/components/schemas/polar__exceptions__AlreadyCanceledSubscription"
                 }
               }
             }
@@ -1168,7 +1168,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -1178,7 +1178,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/SubscriptionLocked"
+                  "$ref": "#/components/schemas/polar__exceptions__SubscriptionLocked"
                 }
               }
             }
@@ -2206,7 +2206,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -2327,7 +2327,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -2410,7 +2410,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/NotPermitted"
+                  "$ref": "#/components/schemas/polar__exceptions__NotPermitted"
                 }
               }
             }
@@ -2420,7 +2420,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -2584,7 +2584,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -3143,7 +3143,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -3239,7 +3239,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -3318,7 +3318,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -3406,7 +3406,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -3667,7 +3667,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -4161,7 +4161,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -4266,7 +4266,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/NotPermitted"
+                  "$ref": "#/components/schemas/polar__exceptions__NotPermitted"
                 }
               }
             }
@@ -4276,7 +4276,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -4383,7 +4383,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/NotPermitted"
+                  "$ref": "#/components/schemas/polar__exceptions__NotPermitted"
                 }
               }
             }
@@ -4393,7 +4393,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -4822,7 +4822,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -4923,7 +4923,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -5014,7 +5014,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/InvoiceAlreadyExists"
+                  "$ref": "#/components/schemas/polar__exceptions__InvoiceAlreadyExists"
                 }
               }
             }
@@ -5026,10 +5026,10 @@
                 "schema": {
                   "anyOf": [
                     {
-                      "$ref": "#/components/schemas/MissingInvoiceBillingDetails"
+                      "$ref": "#/components/schemas/polar__exceptions__MissingInvoiceBillingDetails"
                     },
                     {
-                      "$ref": "#/components/schemas/NotPaidOrder"
+                      "$ref": "#/components/schemas/polar__exceptions__NotPaidOrder"
                     }
                   ],
                   "title": "Response 422 Orders:Generate Invoice"
@@ -5113,7 +5113,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -5968,7 +5968,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -6064,7 +6064,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -6161,7 +6161,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -6265,7 +6265,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -6391,7 +6391,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -6781,7 +6781,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/NotPermitted"
+                  "$ref": "#/components/schemas/polar__exceptions__NotPermitted"
                 }
               }
             }
@@ -6791,7 +6791,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -6908,7 +6908,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/NotPermitted"
+                  "$ref": "#/components/schemas/polar__exceptions__NotPermitted"
                 }
               }
             }
@@ -6918,7 +6918,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -6995,7 +6995,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/NotPermitted"
+                  "$ref": "#/components/schemas/polar__exceptions__NotPermitted"
                 }
               }
             }
@@ -7005,7 +7005,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -7510,7 +7510,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -7625,7 +7625,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -7729,7 +7729,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -7835,7 +7835,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -7919,7 +7919,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -8003,7 +8003,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/NotPermitted"
+                  "$ref": "#/components/schemas/polar__exceptions__NotPermitted"
                 }
               }
             }
@@ -8013,7 +8013,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -8090,7 +8090,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -8467,7 +8467,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -8563,7 +8563,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -8642,7 +8642,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -9026,7 +9026,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -9123,7 +9123,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -9202,7 +9202,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -9561,7 +9561,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -9658,7 +9658,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -9737,7 +9737,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -9872,10 +9872,10 @@
                   "type": "null"
                 }
               ],
-              "description": "Filter by name or email.",
+              "description": "Filter by name, email, or external ID.",
               "title": "Query"
             },
-            "description": "Filter by name or email."
+            "description": "Filter by name, email, or external ID."
           },
           {
             "name": "page",
@@ -10246,7 +10246,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -10347,7 +10347,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -10431,7 +10431,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -10523,7 +10523,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -10623,7 +10623,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -10706,7 +10706,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -10799,7 +10799,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -10891,7 +10891,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -10984,7 +10984,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -11400,7 +11400,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -11503,7 +11503,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/NotPermitted"
+                  "$ref": "#/components/schemas/polar__exceptions__NotPermitted"
                 }
               }
             }
@@ -11513,7 +11513,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -12027,7 +12027,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -12306,7 +12306,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -13178,7 +13178,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -13288,7 +13288,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -13372,7 +13372,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -13456,7 +13456,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/NotPermitted"
+                  "$ref": "#/components/schemas/polar__exceptions__NotPermitted"
                 }
               }
             }
@@ -13466,7 +13466,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -13543,7 +13543,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -13928,7 +13928,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -14029,7 +14029,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -14120,7 +14120,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/InvoiceAlreadyExists"
+                  "$ref": "#/components/schemas/polar__exceptions__InvoiceAlreadyExists"
                 }
               }
             }
@@ -14132,10 +14132,10 @@
                 "schema": {
                   "anyOf": [
                     {
-                      "$ref": "#/components/schemas/MissingInvoiceBillingDetails"
+                      "$ref": "#/components/schemas/polar__exceptions__MissingInvoiceBillingDetails"
                     },
                     {
-                      "$ref": "#/components/schemas/NotPaidOrder"
+                      "$ref": "#/components/schemas/polar__exceptions__NotPaidOrder"
                     }
                   ],
                   "title": "Response 422 Customer Portal:Orders:Generate Invoice"
@@ -14219,7 +14219,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -14312,7 +14312,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -14415,7 +14415,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -14512,7 +14512,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -14863,7 +14863,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -14964,7 +14964,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/AlreadyCanceledSubscription"
+                  "$ref": "#/components/schemas/polar__exceptions__AlreadyCanceledSubscription"
                 }
               }
             }
@@ -14974,7 +14974,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -15065,7 +15065,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/AlreadyCanceledSubscription"
+                  "$ref": "#/components/schemas/polar__exceptions__AlreadyCanceledSubscription"
                 }
               }
             }
@@ -15075,7 +15075,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -15882,7 +15882,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -16341,7 +16341,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -16437,7 +16437,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -16639,7 +16639,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -16992,7 +16992,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -17393,7 +17393,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ResourceNotFound"
+                  "$ref": "#/components/schemas/polar__exceptions__ResourceNotFound"
                 }
               }
             }
@@ -19624,29 +19624,40 @@
         ],
         "title": "AlreadyActiveSubscriptionError"
       },
-      "AlreadyCanceledSubscription": {
+      "AttachedCustomField-Input": {
         "properties": {
-          "error": {
+          "custom_field_id": {
             "type": "string",
-            "const": "AlreadyCanceledSubscription",
-            "title": "Error",
-            "examples": [
-              "AlreadyCanceledSubscription"
-            ]
+            "format": "uuid4",
+            "title": "Custom Field Id",
+            "description": "ID of the custom field."
           },
-          "detail": {
-            "type": "string",
-            "title": "Detail"
+          "custom_field": {
+            "$ref": "#/components/schemas/CustomField",
+            "title": "CustomField"
+          },
+          "order": {
+            "type": "integer",
+            "title": "Order",
+            "description": "Order of the custom field in the resource."
+          },
+          "required": {
+            "type": "boolean",
+            "title": "Required",
+            "description": "Whether the value is required for this custom field."
           }
         },
         "type": "object",
         "required": [
-          "error",
-          "detail"
+          "custom_field_id",
+          "custom_field",
+          "order",
+          "required"
         ],
-        "title": "AlreadyCanceledSubscription"
+        "title": "AttachedCustomField",
+        "description": "Schema of a custom field attached to a resource."
       },
-      "AttachedCustomField": {
+      "AttachedCustomField-Output": {
         "properties": {
           "custom_field_id": {
             "type": "string",
@@ -20486,7 +20497,7 @@
             "title": "Metadata"
           },
           "properties": {
-            "$ref": "#/components/schemas/BenefitDiscordProperties"
+            "$ref": "#/components/schemas/BenefitDiscordProperties-Output"
           }
         },
         "type": "object",
@@ -20607,7 +20618,34 @@
         "title": "BenefitDiscordCreateProperties",
         "description": "Properties to create a benefit of type `discord`."
       },
-      "BenefitDiscordProperties": {
+      "BenefitDiscordProperties-Input": {
+        "properties": {
+          "guild_id": {
+            "type": "string",
+            "title": "Guild Id",
+            "description": "The ID of the Discord server."
+          },
+          "role_id": {
+            "type": "string",
+            "title": "Role Id",
+            "description": "The ID of the Discord role to grant."
+          },
+          "kick_member": {
+            "type": "boolean",
+            "title": "Kick Member",
+            "description": "Whether to kick the member from the Discord server on revocation."
+          }
+        },
+        "type": "object",
+        "required": [
+          "guild_id",
+          "role_id",
+          "kick_member"
+        ],
+        "title": "BenefitDiscordProperties",
+        "description": "Properties for a benefit of type `discord`."
+      },
+      "BenefitDiscordProperties-Output": {
         "properties": {
           "guild_id": {
             "type": "string",
@@ -24886,10 +24924,10 @@
           "product_price": {
             "oneOf": [
               {
-                "$ref": "#/components/schemas/LegacyRecurringProductPrice"
+                "$ref": "#/components/schemas/LegacyRecurringProductPrice-Output"
               },
               {
-                "$ref": "#/components/schemas/ProductPrice"
+                "$ref": "#/components/schemas/ProductPrice-Output"
               }
             ],
             "title": "Product Price",
@@ -24933,7 +24971,7 @@
           },
           "attached_custom_fields": {
             "items": {
-              "$ref": "#/components/schemas/AttachedCustomField"
+              "$ref": "#/components/schemas/AttachedCustomField-Output"
             },
             "type": "array",
             "title": "Attached Custom Fields"
@@ -25278,11 +25316,17 @@
           },
           "amount": {
             "type": "integer",
-            "title": "Amount"
+            "title": "Amount",
+            "examples": [
+              1000
+            ]
           },
           "currency": {
             "type": "string",
-            "title": "Currency"
+            "title": "Currency",
+            "examples": [
+              "usd"
+            ]
           },
           "id": {
             "type": "string",
@@ -25333,11 +25377,17 @@
           },
           "amount": {
             "type": "integer",
-            "title": "Amount"
+            "title": "Amount",
+            "examples": [
+              1000
+            ]
           },
           "currency": {
             "type": "string",
-            "title": "Currency"
+            "title": "Currency",
+            "examples": [
+              "usd"
+            ]
           },
           "id": {
             "type": "string",
@@ -25385,7 +25435,11 @@
           },
           "basis_points": {
             "type": "integer",
-            "title": "Basis Points"
+            "title": "Basis Points",
+            "description": "Discount percentage in basis points. A basis point is 1/100th of a percent. For example, 1000 basis points equals a 10% discount.",
+            "examples": [
+              1000
+            ]
           },
           "id": {
             "type": "string",
@@ -25435,7 +25489,11 @@
           },
           "basis_points": {
             "type": "integer",
-            "title": "Basis Points"
+            "title": "Basis Points",
+            "description": "Discount percentage in basis points. A basis point is 1/100th of a percent. For example, 1000 basis points equals a 10% discount.",
+            "examples": [
+              1000
+            ]
           },
           "id": {
             "type": "string",
@@ -26202,10 +26260,10 @@
             "items": {
               "oneOf": [
                 {
-                  "$ref": "#/components/schemas/LegacyRecurringProductPrice"
+                  "$ref": "#/components/schemas/LegacyRecurringProductPrice-Output"
                 },
                 {
-                  "$ref": "#/components/schemas/ProductPrice"
+                  "$ref": "#/components/schemas/ProductPrice-Output"
                 }
               ]
             },
@@ -26834,10 +26892,10 @@
             "items": {
               "oneOf": [
                 {
-                  "$ref": "#/components/schemas/LegacyRecurringProductPrice"
+                  "$ref": "#/components/schemas/LegacyRecurringProductPrice-Output"
                 },
                 {
-                  "$ref": "#/components/schemas/ProductPrice"
+                  "$ref": "#/components/schemas/ProductPrice-Output"
                 }
               ]
             },
@@ -27922,10 +27980,10 @@
           "product_price": {
             "oneOf": [
               {
-                "$ref": "#/components/schemas/LegacyRecurringProductPrice"
+                "$ref": "#/components/schemas/LegacyRecurringProductPrice-Output"
               },
               {
-                "$ref": "#/components/schemas/ProductPrice"
+                "$ref": "#/components/schemas/ProductPrice-Output"
               }
             ],
             "title": "Product Price",
@@ -27960,7 +28018,7 @@
           },
           "attached_custom_fields": {
             "items": {
-              "$ref": "#/components/schemas/AttachedCustomField"
+              "$ref": "#/components/schemas/AttachedCustomField-Output"
             },
             "type": "array",
             "title": "Attached Custom Fields"
@@ -28393,10 +28451,10 @@
           "product_price": {
             "oneOf": [
               {
-                "$ref": "#/components/schemas/LegacyRecurringProductPrice"
+                "$ref": "#/components/schemas/LegacyRecurringProductPrice-Output"
               },
               {
-                "$ref": "#/components/schemas/ProductPrice"
+                "$ref": "#/components/schemas/ProductPrice-Output"
               }
             ],
             "title": "Product Price",
@@ -28431,7 +28489,7 @@
           },
           "attached_custom_fields": {
             "items": {
-              "$ref": "#/components/schemas/AttachedCustomField"
+              "$ref": "#/components/schemas/AttachedCustomField-Output"
             },
             "type": "array",
             "title": "Attached Custom Fields"
@@ -29021,6 +29079,27 @@
         "title": "CheckoutUpdatePublic",
         "description": "Update an existing checkout session using the client secret."
       },
+      "CostMetadata": {
+        "properties": {
+          "amount": {
+            "type": "integer",
+            "title": "Amount",
+            "description": "The amount in cents."
+          },
+          "currency": {
+            "type": "string",
+            "pattern": "usd",
+            "title": "Currency",
+            "description": "The currency. Currently, only `usd` is supported."
+          }
+        },
+        "type": "object",
+        "required": [
+          "amount",
+          "currency"
+        ],
+        "title": "CostMetadata"
+      },
       "CountAggregation": {
         "properties": {
           "func": {
@@ -29287,6 +29366,256 @@
           "ZW"
         ],
         "title": "CountryAlpha2"
+      },
+      "CountryAlpha2Input": {
+        "type": "string",
+        "enum": [
+          "AD",
+          "AE",
+          "AF",
+          "AG",
+          "AI",
+          "AL",
+          "AM",
+          "AO",
+          "AQ",
+          "AR",
+          "AS",
+          "AT",
+          "AU",
+          "AW",
+          "AX",
+          "AZ",
+          "BA",
+          "BB",
+          "BD",
+          "BE",
+          "BF",
+          "BG",
+          "BH",
+          "BI",
+          "BJ",
+          "BL",
+          "BM",
+          "BN",
+          "BO",
+          "BQ",
+          "BR",
+          "BS",
+          "BT",
+          "BV",
+          "BW",
+          "BY",
+          "BZ",
+          "CA",
+          "CC",
+          "CD",
+          "CF",
+          "CG",
+          "CH",
+          "CI",
+          "CK",
+          "CL",
+          "CM",
+          "CN",
+          "CO",
+          "CR",
+          "CV",
+          "CW",
+          "CX",
+          "CY",
+          "CZ",
+          "DE",
+          "DJ",
+          "DK",
+          "DM",
+          "DO",
+          "DZ",
+          "EC",
+          "EE",
+          "EG",
+          "EH",
+          "ER",
+          "ES",
+          "ET",
+          "FI",
+          "FJ",
+          "FK",
+          "FM",
+          "FO",
+          "FR",
+          "GA",
+          "GB",
+          "GD",
+          "GE",
+          "GF",
+          "GG",
+          "GH",
+          "GI",
+          "GL",
+          "GM",
+          "GN",
+          "GP",
+          "GQ",
+          "GR",
+          "GS",
+          "GT",
+          "GU",
+          "GW",
+          "GY",
+          "HK",
+          "HM",
+          "HN",
+          "HR",
+          "HT",
+          "HU",
+          "ID",
+          "IE",
+          "IL",
+          "IM",
+          "IN",
+          "IO",
+          "IQ",
+          "IS",
+          "IT",
+          "JE",
+          "JM",
+          "JO",
+          "JP",
+          "KE",
+          "KG",
+          "KH",
+          "KI",
+          "KM",
+          "KN",
+          "KR",
+          "KW",
+          "KY",
+          "KZ",
+          "LA",
+          "LB",
+          "LC",
+          "LI",
+          "LK",
+          "LR",
+          "LS",
+          "LT",
+          "LU",
+          "LV",
+          "LY",
+          "MA",
+          "MC",
+          "MD",
+          "ME",
+          "MF",
+          "MG",
+          "MH",
+          "MK",
+          "ML",
+          "MM",
+          "MN",
+          "MO",
+          "MP",
+          "MQ",
+          "MR",
+          "MS",
+          "MT",
+          "MU",
+          "MV",
+          "MW",
+          "MX",
+          "MY",
+          "MZ",
+          "NA",
+          "NC",
+          "NE",
+          "NF",
+          "NG",
+          "NI",
+          "NL",
+          "NO",
+          "NP",
+          "NR",
+          "NU",
+          "NZ",
+          "OM",
+          "PA",
+          "PE",
+          "PF",
+          "PG",
+          "PH",
+          "PK",
+          "PL",
+          "PM",
+          "PN",
+          "PR",
+          "PS",
+          "PT",
+          "PW",
+          "PY",
+          "QA",
+          "RE",
+          "RO",
+          "RS",
+          "RW",
+          "SA",
+          "SB",
+          "SC",
+          "SD",
+          "SE",
+          "SG",
+          "SH",
+          "SI",
+          "SJ",
+          "SK",
+          "SL",
+          "SM",
+          "SN",
+          "SO",
+          "SR",
+          "SS",
+          "ST",
+          "SV",
+          "SX",
+          "SZ",
+          "TC",
+          "TD",
+          "TF",
+          "TG",
+          "TH",
+          "TJ",
+          "TK",
+          "TL",
+          "TM",
+          "TN",
+          "TO",
+          "TR",
+          "TT",
+          "TV",
+          "TW",
+          "TZ",
+          "UA",
+          "UG",
+          "UM",
+          "US",
+          "UY",
+          "UZ",
+          "VA",
+          "VC",
+          "VE",
+          "VG",
+          "VI",
+          "VN",
+          "VU",
+          "WF",
+          "WS",
+          "YE",
+          "YT",
+          "ZA",
+          "ZM",
+          "ZW"
+        ],
+        "title": "CountryAlpha2Input"
       },
       "CustomField": {
         "oneOf": [
@@ -32514,51 +32843,81 @@
           "subtotal_amount": {
             "type": "integer",
             "title": "Subtotal Amount",
-            "description": "Amount in cents, before discounts and taxes."
+            "description": "Amount in cents, before discounts and taxes.",
+            "examples": [
+              10000
+            ]
           },
           "discount_amount": {
             "type": "integer",
             "title": "Discount Amount",
-            "description": "Discount amount in cents."
+            "description": "Discount amount in cents.",
+            "examples": [
+              1000
+            ]
           },
           "net_amount": {
             "type": "integer",
             "title": "Net Amount",
-            "description": "Amount in cents, after discounts but before taxes."
+            "description": "Amount in cents, after discounts but before taxes.",
+            "examples": [
+              9000
+            ]
           },
           "tax_amount": {
             "type": "integer",
             "title": "Tax Amount",
-            "description": "Sales tax amount in cents."
+            "description": "Sales tax amount in cents.",
+            "examples": [
+              720
+            ]
           },
           "total_amount": {
             "type": "integer",
             "title": "Total Amount",
-            "description": "Amount in cents, after discounts and taxes."
+            "description": "Amount in cents, after discounts and taxes.",
+            "examples": [
+              9720
+            ]
           },
           "applied_balance_amount": {
             "type": "integer",
             "title": "Applied Balance Amount",
-            "description": "Customer's balance amount applied to this invoice. Can increase the total amount paid, if the customer has a negative balance,  or decrease it, if the customer has a positive balance.Amount in cents."
+            "description": "Customer's balance amount applied to this invoice. Can increase the total amount paid, if the customer has a negative balance,  or decrease it, if the customer has a positive balance.Amount in cents.",
+            "examples": [
+              0
+            ]
           },
           "due_amount": {
             "type": "integer",
             "title": "Due Amount",
-            "description": "Amount in cents that is due for this order."
+            "description": "Amount in cents that is due for this order.",
+            "examples": [
+              0
+            ]
           },
           "refunded_amount": {
             "type": "integer",
             "title": "Refunded Amount",
-            "description": "Amount refunded in cents."
+            "description": "Amount refunded in cents.",
+            "examples": [
+              0
+            ]
           },
           "refunded_tax_amount": {
             "type": "integer",
             "title": "Refunded Tax Amount",
-            "description": "Sales tax refunded in cents."
+            "description": "Sales tax refunded in cents.",
+            "examples": [
+              0
+            ]
           },
           "currency": {
             "type": "string",
-            "title": "Currency"
+            "title": "Currency",
+            "examples": [
+              "usd"
+            ]
           },
           "billing_reason": {
             "$ref": "#/components/schemas/OrderBillingReason"
@@ -32932,10 +33291,10 @@
             "items": {
               "oneOf": [
                 {
-                  "$ref": "#/components/schemas/LegacyRecurringProductPrice"
+                  "$ref": "#/components/schemas/LegacyRecurringProductPrice-Output"
                 },
                 {
-                  "$ref": "#/components/schemas/ProductPrice"
+                  "$ref": "#/components/schemas/ProductPrice-Output"
                 }
               ]
             },
@@ -33029,20 +33388,32 @@
           "amount": {
             "type": "integer",
             "title": "Amount",
-            "description": "The amount of the subscription."
+            "description": "The amount of the subscription.",
+            "examples": [
+              10000
+            ]
           },
           "currency": {
             "type": "string",
             "title": "Currency",
-            "description": "The currency of the subscription."
+            "description": "The currency of the subscription.",
+            "examples": [
+              "usd"
+            ]
           },
           "recurring_interval": {
             "$ref": "#/components/schemas/SubscriptionRecurringInterval",
-            "description": "The interval at which the subscription recurs."
+            "description": "The interval at which the subscription recurs.",
+            "examples": [
+              "month"
+            ]
           },
           "status": {
             "$ref": "#/components/schemas/SubscriptionStatus",
-            "description": "The status of the subscription."
+            "description": "The status of the subscription.",
+            "examples": [
+              "active"
+            ]
           },
           "current_period_start": {
             "type": "string",
@@ -33360,7 +33731,7 @@
       "CustomerPaymentMethodCreateResponse": {
         "oneOf": [
           {
-            "$ref": "#/components/schemas/CustomerPaymentMethodCreateSucceededResponse"
+            "$ref": "#/components/schemas/CustomerPaymentMethodCreateSucceededResponse-Output"
           },
           {
             "$ref": "#/components/schemas/CustomerPaymentMethodCreateRequiresActionResponse"
@@ -33370,11 +33741,30 @@
           "propertyName": "status",
           "mapping": {
             "requires_action": "#/components/schemas/CustomerPaymentMethodCreateRequiresActionResponse",
-            "succeeded": "#/components/schemas/CustomerPaymentMethodCreateSucceededResponse"
+            "succeeded": "#/components/schemas/CustomerPaymentMethodCreateSucceededResponse-Output"
           }
         }
       },
-      "CustomerPaymentMethodCreateSucceededResponse": {
+      "CustomerPaymentMethodCreateSucceededResponse-Input": {
+        "properties": {
+          "status": {
+            "type": "string",
+            "const": "succeeded",
+            "title": "Status"
+          },
+          "payment_method": {
+            "$ref": "#/components/schemas/CustomerPaymentMethod",
+            "title": "CustomerPaymentMethod"
+          }
+        },
+        "type": "object",
+        "required": [
+          "status",
+          "payment_method"
+        ],
+        "title": "CustomerPaymentMethodCreateSucceededResponse"
+      },
+      "CustomerPaymentMethodCreateSucceededResponse-Output": {
         "properties": {
           "status": {
             "type": "string",
@@ -33687,10 +34077,10 @@
             "items": {
               "oneOf": [
                 {
-                  "$ref": "#/components/schemas/LegacyRecurringProductPrice"
+                  "$ref": "#/components/schemas/LegacyRecurringProductPrice-Output"
                 },
                 {
-                  "$ref": "#/components/schemas/ProductPrice"
+                  "$ref": "#/components/schemas/ProductPrice-Output"
                 }
               ]
             },
@@ -34800,20 +35190,32 @@
           "amount": {
             "type": "integer",
             "title": "Amount",
-            "description": "The amount of the subscription."
+            "description": "The amount of the subscription.",
+            "examples": [
+              10000
+            ]
           },
           "currency": {
             "type": "string",
             "title": "Currency",
-            "description": "The currency of the subscription."
+            "description": "The currency of the subscription.",
+            "examples": [
+              "usd"
+            ]
           },
           "recurring_interval": {
             "$ref": "#/components/schemas/SubscriptionRecurringInterval",
-            "description": "The interval at which the subscription recurs."
+            "description": "The interval at which the subscription recurs.",
+            "examples": [
+              "month"
+            ]
           },
           "status": {
             "$ref": "#/components/schemas/SubscriptionStatus",
-            "description": "The status of the subscription."
+            "description": "The status of the subscription.",
+            "examples": [
+              "active"
+            ]
           },
           "current_period_start": {
             "type": "string",
@@ -34982,10 +35384,10 @@
             "items": {
               "oneOf": [
                 {
-                  "$ref": "#/components/schemas/LegacyRecurringProductPrice"
+                  "$ref": "#/components/schemas/LegacyRecurringProductPrice-Output"
                 },
                 {
-                  "$ref": "#/components/schemas/ProductPrice"
+                  "$ref": "#/components/schemas/ProductPrice-Output"
                 }
               ]
             },
@@ -35296,10 +35698,10 @@
             "items": {
               "oneOf": [
                 {
-                  "$ref": "#/components/schemas/LegacyRecurringProductPrice"
+                  "$ref": "#/components/schemas/LegacyRecurringProductPrice-Output"
                 },
                 {
-                  "$ref": "#/components/schemas/ProductPrice"
+                  "$ref": "#/components/schemas/ProductPrice-Output"
                 }
               ]
             },
@@ -35666,11 +36068,17 @@
           },
           "amount": {
             "type": "integer",
-            "title": "Amount"
+            "title": "Amount",
+            "examples": [
+              1000
+            ]
           },
           "currency": {
             "type": "string",
-            "title": "Currency"
+            "title": "Currency",
+            "examples": [
+              "usd"
+            ]
           },
           "created_at": {
             "type": "string",
@@ -35831,11 +36239,17 @@
           },
           "amount": {
             "type": "integer",
-            "title": "Amount"
+            "title": "Amount",
+            "examples": [
+              1000
+            ]
           },
           "currency": {
             "type": "string",
-            "title": "Currency"
+            "title": "Currency",
+            "examples": [
+              "usd"
+            ]
           },
           "created_at": {
             "type": "string",
@@ -36148,11 +36562,17 @@
           },
           "amount": {
             "type": "integer",
-            "title": "Amount"
+            "title": "Amount",
+            "examples": [
+              1000
+            ]
           },
           "currency": {
             "type": "string",
-            "title": "Currency"
+            "title": "Currency",
+            "examples": [
+              "usd"
+            ]
           },
           "created_at": {
             "type": "string",
@@ -36318,11 +36738,17 @@
           },
           "amount": {
             "type": "integer",
-            "title": "Amount"
+            "title": "Amount",
+            "examples": [
+              1000
+            ]
           },
           "currency": {
             "type": "string",
-            "title": "Currency"
+            "title": "Currency",
+            "examples": [
+              "usd"
+            ]
           },
           "created_at": {
             "type": "string",
@@ -36639,7 +37065,11 @@
           },
           "basis_points": {
             "type": "integer",
-            "title": "Basis Points"
+            "title": "Basis Points",
+            "description": "Discount percentage in basis points. A basis point is 1/100th of a percent. For example, 1000 basis points equals a 10% discount.",
+            "examples": [
+              1000
+            ]
           },
           "created_at": {
             "type": "string",
@@ -36799,7 +37229,11 @@
           },
           "basis_points": {
             "type": "integer",
-            "title": "Basis Points"
+            "title": "Basis Points",
+            "description": "Discount percentage in basis points. A basis point is 1/100th of a percent. For example, 1000 basis points equals a 10% discount.",
+            "examples": [
+              1000
+            ]
           },
           "created_at": {
             "type": "string",
@@ -37104,7 +37538,11 @@
           },
           "basis_points": {
             "type": "integer",
-            "title": "Basis Points"
+            "title": "Basis Points",
+            "description": "Discount percentage in basis points. A basis point is 1/100th of a percent. For example, 1000 basis points equals a 10% discount.",
+            "examples": [
+              1000
+            ]
           },
           "created_at": {
             "type": "string",
@@ -37269,7 +37707,11 @@
           },
           "basis_points": {
             "type": "integer",
-            "title": "Basis Points"
+            "title": "Basis Points",
+            "description": "Discount percentage in basis points. A basis point is 1/100th of a percent. For example, 1000 basis points equals a 10% discount.",
+            "examples": [
+              1000
+            ]
           },
           "created_at": {
             "type": "string",
@@ -38162,34 +38604,6 @@
       },
       "EventCreateCustomer": {
         "properties": {
-          "metadata": {
-            "additionalProperties": {
-              "anyOf": [
-                {
-                  "type": "string",
-                  "maxLength": 500,
-                  "minLength": 1
-                },
-                {
-                  "type": "integer"
-                },
-                {
-                  "type": "number"
-                },
-                {
-                  "type": "boolean"
-                }
-              ]
-            },
-            "propertyNames": {
-              "maxLength": 40,
-              "minLength": 1
-            },
-            "type": "object",
-            "maxProperties": 50,
-            "title": "Metadata",
-            "description": "Key-value object allowing you to store additional information.\n\nThe key must be a string with a maximum length of **40 characters**.\nThe value must be either:\n\n* A string with a maximum length of **500 characters**\n* An integer\n* A floating-point number\n* A boolean\n\nYou can store up to **50 key-value pairs**."
-          },
           "timestamp": {
             "type": "string",
             "format": "date-time",
@@ -38222,6 +38636,10 @@
             ],
             "title": "Organization Id",
             "description": "The ID of the organization owning the event. **Required unless you use an organization token.**"
+          },
+          "metadata": {
+            "$ref": "#/components/schemas/EventMetadataInput",
+            "description": "Key-value object allowing you to store additional information about the event. Some keys like `_llm` are structured data that are handled specially by Polar.\n\nThe key must be a string with a maximum length of **40 characters**.\nThe value must be either:\n\n* A string with a maximum length of **500 characters**\n* An integer\n* A floating-point number\n* A boolean\n\nYou can store up to **50 key-value pairs**."
           },
           "customer_id": {
             "type": "string",
@@ -38239,34 +38657,6 @@
       },
       "EventCreateExternalCustomer": {
         "properties": {
-          "metadata": {
-            "additionalProperties": {
-              "anyOf": [
-                {
-                  "type": "string",
-                  "maxLength": 500,
-                  "minLength": 1
-                },
-                {
-                  "type": "integer"
-                },
-                {
-                  "type": "number"
-                },
-                {
-                  "type": "boolean"
-                }
-              ]
-            },
-            "propertyNames": {
-              "maxLength": 40,
-              "minLength": 1
-            },
-            "type": "object",
-            "maxProperties": 50,
-            "title": "Metadata",
-            "description": "Key-value object allowing you to store additional information.\n\nThe key must be a string with a maximum length of **40 characters**.\nThe value must be either:\n\n* A string with a maximum length of **500 characters**\n* An integer\n* A floating-point number\n* A boolean\n\nYou can store up to **50 key-value pairs**."
-          },
           "timestamp": {
             "type": "string",
             "format": "date-time",
@@ -38300,6 +38690,10 @@
             "title": "Organization Id",
             "description": "The ID of the organization owning the event. **Required unless you use an organization token.**"
           },
+          "metadata": {
+            "$ref": "#/components/schemas/EventMetadataInput",
+            "description": "Key-value object allowing you to store additional information about the event. Some keys like `_llm` are structured data that are handled specially by Polar.\n\nThe key must be a string with a maximum length of **40 characters**.\nThe value must be either:\n\n* A string with a maximum length of **500 characters**\n* An integer\n* A floating-point number\n* A boolean\n\nYou can store up to **50 key-value pairs**."
+          },
           "external_customer_id": {
             "type": "string",
             "title": "External Customer Id",
@@ -38312,6 +38706,48 @@
           "external_customer_id"
         ],
         "title": "EventCreateExternalCustomer"
+      },
+      "EventMetadataInput": {
+        "additionalProperties": {
+          "anyOf": [
+            {
+              "type": "string",
+              "maxLength": 500,
+              "minLength": 1
+            },
+            {
+              "type": "integer"
+            },
+            {
+              "type": "number"
+            },
+            {
+              "type": "boolean"
+            }
+          ]
+        },
+        "type": "object",
+        "title": "EventMetadataInput"
+      },
+      "EventMetadataOutput": {
+        "additionalProperties": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "integer"
+            },
+            {
+              "type": "number"
+            },
+            {
+              "type": "boolean"
+            }
+          ]
+        },
+        "type": "object",
+        "title": "EventMetadataOutput"
       },
       "EventName": {
         "properties": {
@@ -39125,50 +39561,240 @@
         ],
         "title": "IntrospectTokenResponse"
       },
-      "InvoiceAlreadyExists": {
+      "LLMMetadata": {
         "properties": {
-          "error": {
+          "vendor": {
             "type": "string",
-            "const": "InvoiceAlreadyExists",
-            "title": "Error",
-            "examples": [
-              "InvoiceAlreadyExists"
-            ]
+            "title": "Vendor",
+            "description": "The vendor of the event."
           },
-          "detail": {
+          "model": {
             "type": "string",
-            "title": "Detail"
+            "title": "Model",
+            "description": "The model used for the event."
+          },
+          "prompt": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Prompt",
+            "description": "The LLM prompt used for the event."
+          },
+          "response": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Response",
+            "description": "The LLM response used for the event."
+          },
+          "input_tokens": {
+            "type": "integer",
+            "title": "Input Tokens",
+            "description": "The number of LLM input tokens used for the event."
+          },
+          "cached_input_tokens": {
+            "type": "integer",
+            "title": "Cached Input Tokens",
+            "description": "The number of LLM cached tokens that were used for the event."
+          },
+          "output_tokens": {
+            "type": "integer",
+            "title": "Output Tokens",
+            "description": "The number of LLM output tokens used for the event."
+          },
+          "total_tokens": {
+            "type": "integer",
+            "title": "Total Tokens",
+            "description": "The total number of LLM tokens used for the event."
+          },
+          "cost": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/CostMetadata"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Optional cost associated with the event."
           }
         },
         "type": "object",
         "required": [
-          "error",
-          "detail"
+          "vendor",
+          "model",
+          "input_tokens",
+          "output_tokens",
+          "total_tokens"
         ],
-        "title": "InvoiceAlreadyExists"
+        "title": "LLMMetadata"
       },
-      "LegacyRecurringProductPrice": {
+      "LegacyRecurringProductPrice-Input": {
         "oneOf": [
           {
-            "$ref": "#/components/schemas/LegacyRecurringProductPriceFixed"
+            "$ref": "#/components/schemas/LegacyRecurringProductPriceFixed-Input"
           },
           {
-            "$ref": "#/components/schemas/LegacyRecurringProductPriceCustom"
+            "$ref": "#/components/schemas/LegacyRecurringProductPriceCustom-Input"
           },
           {
-            "$ref": "#/components/schemas/LegacyRecurringProductPriceFree"
+            "$ref": "#/components/schemas/LegacyRecurringProductPriceFree-Input"
           }
         ],
         "discriminator": {
           "propertyName": "amount_type",
           "mapping": {
-            "custom": "#/components/schemas/LegacyRecurringProductPriceCustom",
-            "fixed": "#/components/schemas/LegacyRecurringProductPriceFixed",
-            "free": "#/components/schemas/LegacyRecurringProductPriceFree"
+            "custom": "#/components/schemas/LegacyRecurringProductPriceCustom-Input",
+            "fixed": "#/components/schemas/LegacyRecurringProductPriceFixed-Input",
+            "free": "#/components/schemas/LegacyRecurringProductPriceFree-Input"
           }
         }
       },
-      "LegacyRecurringProductPriceCustom": {
+      "LegacyRecurringProductPrice-Output": {
+        "oneOf": [
+          {
+            "$ref": "#/components/schemas/LegacyRecurringProductPriceFixed-Output"
+          },
+          {
+            "$ref": "#/components/schemas/LegacyRecurringProductPriceCustom-Output"
+          },
+          {
+            "$ref": "#/components/schemas/LegacyRecurringProductPriceFree-Output"
+          }
+        ],
+        "discriminator": {
+          "propertyName": "amount_type",
+          "mapping": {
+            "custom": "#/components/schemas/LegacyRecurringProductPriceCustom-Output",
+            "fixed": "#/components/schemas/LegacyRecurringProductPriceFixed-Output",
+            "free": "#/components/schemas/LegacyRecurringProductPriceFree-Output"
+          }
+        }
+      },
+      "LegacyRecurringProductPriceCustom-Input": {
+        "properties": {
+          "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Created At",
+            "description": "Creation timestamp of the object."
+          },
+          "modified_at": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Modified At",
+            "description": "Last modification timestamp of the object."
+          },
+          "id": {
+            "type": "string",
+            "format": "uuid4",
+            "title": "Id",
+            "description": "The ID of the price."
+          },
+          "amount_type": {
+            "type": "string",
+            "const": "custom",
+            "title": "Amount Type"
+          },
+          "is_archived": {
+            "type": "boolean",
+            "title": "Is Archived",
+            "description": "Whether the price is archived and no longer available."
+          },
+          "product_id": {
+            "type": "string",
+            "format": "uuid4",
+            "title": "Product Id",
+            "description": "The ID of the product owning the price."
+          },
+          "type": {
+            "type": "string",
+            "const": "recurring",
+            "title": "Type",
+            "description": "The type of the price."
+          },
+          "recurring_interval": {
+            "$ref": "#/components/schemas/SubscriptionRecurringInterval",
+            "description": "The recurring interval of the price."
+          },
+          "price_currency": {
+            "type": "string",
+            "title": "Price Currency",
+            "description": "The currency."
+          },
+          "minimum_amount": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Minimum Amount",
+            "description": "The minimum amount the customer can pay."
+          },
+          "maximum_amount": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Maximum Amount",
+            "description": "The maximum amount the customer can pay."
+          },
+          "preset_amount": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Preset Amount",
+            "description": "The initial amount shown to the customer."
+          }
+        },
+        "type": "object",
+        "required": [
+          "created_at",
+          "modified_at",
+          "id",
+          "amount_type",
+          "is_archived",
+          "product_id",
+          "type",
+          "recurring_interval",
+          "price_currency",
+          "minimum_amount",
+          "maximum_amount",
+          "preset_amount"
+        ],
+        "title": "LegacyRecurringProductPriceCustom",
+        "description": "A pay-what-you-want recurring price for a product, i.e. a subscription.\n\n**Deprecated**: The recurring interval should be set on the product itself."
+      },
+      "LegacyRecurringProductPriceCustom-Output": {
         "properties": {
           "created_at": {
             "type": "string",
@@ -39287,7 +39913,87 @@
         "title": "LegacyRecurringProductPriceCustom",
         "description": "A pay-what-you-want recurring price for a product, i.e. a subscription.\n\n**Deprecated**: The recurring interval should be set on the product itself."
       },
-      "LegacyRecurringProductPriceFixed": {
+      "LegacyRecurringProductPriceFixed-Input": {
+        "properties": {
+          "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Created At",
+            "description": "Creation timestamp of the object."
+          },
+          "modified_at": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Modified At",
+            "description": "Last modification timestamp of the object."
+          },
+          "id": {
+            "type": "string",
+            "format": "uuid4",
+            "title": "Id",
+            "description": "The ID of the price."
+          },
+          "amount_type": {
+            "type": "string",
+            "const": "fixed",
+            "title": "Amount Type"
+          },
+          "is_archived": {
+            "type": "boolean",
+            "title": "Is Archived",
+            "description": "Whether the price is archived and no longer available."
+          },
+          "product_id": {
+            "type": "string",
+            "format": "uuid4",
+            "title": "Product Id",
+            "description": "The ID of the product owning the price."
+          },
+          "type": {
+            "type": "string",
+            "const": "recurring",
+            "title": "Type",
+            "description": "The type of the price."
+          },
+          "recurring_interval": {
+            "$ref": "#/components/schemas/SubscriptionRecurringInterval",
+            "description": "The recurring interval of the price."
+          },
+          "price_currency": {
+            "type": "string",
+            "title": "Price Currency",
+            "description": "The currency."
+          },
+          "price_amount": {
+            "type": "integer",
+            "title": "Price Amount",
+            "description": "The price in cents."
+          }
+        },
+        "type": "object",
+        "required": [
+          "created_at",
+          "modified_at",
+          "id",
+          "amount_type",
+          "is_archived",
+          "product_id",
+          "type",
+          "recurring_interval",
+          "price_currency",
+          "price_amount"
+        ],
+        "title": "LegacyRecurringProductPriceFixed",
+        "description": "A recurring price for a product, i.e. a subscription.\n\n**Deprecated**: The recurring interval should be set on the product itself."
+      },
+      "LegacyRecurringProductPriceFixed-Output": {
         "properties": {
           "created_at": {
             "type": "string",
@@ -39373,7 +40079,75 @@
         "title": "LegacyRecurringProductPriceFixed",
         "description": "A recurring price for a product, i.e. a subscription.\n\n**Deprecated**: The recurring interval should be set on the product itself."
       },
-      "LegacyRecurringProductPriceFree": {
+      "LegacyRecurringProductPriceFree-Input": {
+        "properties": {
+          "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Created At",
+            "description": "Creation timestamp of the object."
+          },
+          "modified_at": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Modified At",
+            "description": "Last modification timestamp of the object."
+          },
+          "id": {
+            "type": "string",
+            "format": "uuid4",
+            "title": "Id",
+            "description": "The ID of the price."
+          },
+          "amount_type": {
+            "type": "string",
+            "const": "free",
+            "title": "Amount Type"
+          },
+          "is_archived": {
+            "type": "boolean",
+            "title": "Is Archived",
+            "description": "Whether the price is archived and no longer available."
+          },
+          "product_id": {
+            "type": "string",
+            "format": "uuid4",
+            "title": "Product Id",
+            "description": "The ID of the product owning the price."
+          },
+          "type": {
+            "type": "string",
+            "const": "recurring",
+            "title": "Type",
+            "description": "The type of the price."
+          },
+          "recurring_interval": {
+            "$ref": "#/components/schemas/SubscriptionRecurringInterval",
+            "description": "The recurring interval of the price."
+          }
+        },
+        "type": "object",
+        "required": [
+          "created_at",
+          "modified_at",
+          "id",
+          "amount_type",
+          "is_archived",
+          "product_id",
+          "type",
+          "recurring_interval"
+        ],
+        "title": "LegacyRecurringProductPriceFree",
+        "description": "A free recurring price for a product, i.e. a subscription.\n\n**Deprecated**: The recurring interval should be set on the product itself."
+      },
+      "LegacyRecurringProductPriceFree-Output": {
         "properties": {
           "created_at": {
             "type": "string",
@@ -40076,7 +40850,42 @@
         "type": "object",
         "title": "LicenseKeyUpdate"
       },
-      "LicenseKeyUser": {
+      "LicenseKeyUser-Input": {
+        "properties": {
+          "legacy_user_id": {
+            "type": "string",
+            "format": "uuid4",
+            "title": "Legacy User Id"
+          },
+          "email": {
+            "type": "string",
+            "title": "Email"
+          },
+          "legacy_user_public_name": {
+            "type": "string",
+            "title": "Legacy User Public Name"
+          },
+          "avatar_url": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Avatar Url"
+          }
+        },
+        "type": "object",
+        "required": [
+          "legacy_user_id",
+          "email",
+          "legacy_user_public_name"
+        ],
+        "title": "LicenseKeyUser"
+      },
+      "LicenseKeyUser-Output": {
         "properties": {
           "id": {
             "type": "string",
@@ -41464,7 +42273,8 @@
           "filter": {
             "anyOf": [
               {
-                "$ref": "#/components/schemas/Filter"
+                "$ref": "#/components/schemas/Filter",
+                "description": "The filter to apply on events that'll be used to calculate the meter."
               },
               {
                 "type": "null"
@@ -41943,7 +42753,139 @@
         ],
         "title": "MetricType"
       },
-      "Metrics": {
+      "Metrics-Input": {
+        "properties": {
+          "orders": {
+            "$ref": "#/components/schemas/Metric"
+          },
+          "revenue": {
+            "$ref": "#/components/schemas/Metric"
+          },
+          "net_revenue": {
+            "$ref": "#/components/schemas/Metric"
+          },
+          "cumulative_revenue": {
+            "$ref": "#/components/schemas/Metric"
+          },
+          "net_cumulative_revenue": {
+            "$ref": "#/components/schemas/Metric"
+          },
+          "average_order_value": {
+            "$ref": "#/components/schemas/Metric"
+          },
+          "net_average_order_value": {
+            "$ref": "#/components/schemas/Metric"
+          },
+          "one_time_products": {
+            "$ref": "#/components/schemas/Metric"
+          },
+          "one_time_products_revenue": {
+            "$ref": "#/components/schemas/Metric"
+          },
+          "one_time_products_net_revenue": {
+            "$ref": "#/components/schemas/Metric"
+          },
+          "new_subscriptions": {
+            "$ref": "#/components/schemas/Metric"
+          },
+          "new_subscriptions_revenue": {
+            "$ref": "#/components/schemas/Metric"
+          },
+          "new_subscriptions_net_revenue": {
+            "$ref": "#/components/schemas/Metric"
+          },
+          "renewed_subscriptions": {
+            "$ref": "#/components/schemas/Metric"
+          },
+          "renewed_subscriptions_revenue": {
+            "$ref": "#/components/schemas/Metric"
+          },
+          "renewed_subscriptions_net_revenue": {
+            "$ref": "#/components/schemas/Metric"
+          },
+          "active_subscriptions": {
+            "$ref": "#/components/schemas/Metric"
+          },
+          "monthly_recurring_revenue": {
+            "$ref": "#/components/schemas/Metric"
+          },
+          "committed_monthly_recurring_revenue": {
+            "$ref": "#/components/schemas/Metric"
+          },
+          "checkouts": {
+            "$ref": "#/components/schemas/Metric"
+          },
+          "succeeded_checkouts": {
+            "$ref": "#/components/schemas/Metric"
+          },
+          "checkouts_conversion": {
+            "$ref": "#/components/schemas/Metric"
+          },
+          "canceled_subscriptions": {
+            "$ref": "#/components/schemas/Metric"
+          },
+          "canceled_subscriptions_customer_service": {
+            "$ref": "#/components/schemas/Metric"
+          },
+          "canceled_subscriptions_low_quality": {
+            "$ref": "#/components/schemas/Metric"
+          },
+          "canceled_subscriptions_missing_features": {
+            "$ref": "#/components/schemas/Metric"
+          },
+          "canceled_subscriptions_switched_service": {
+            "$ref": "#/components/schemas/Metric"
+          },
+          "canceled_subscriptions_too_complex": {
+            "$ref": "#/components/schemas/Metric"
+          },
+          "canceled_subscriptions_too_expensive": {
+            "$ref": "#/components/schemas/Metric"
+          },
+          "canceled_subscriptions_unused": {
+            "$ref": "#/components/schemas/Metric"
+          },
+          "canceled_subscriptions_other": {
+            "$ref": "#/components/schemas/Metric"
+          }
+        },
+        "type": "object",
+        "required": [
+          "orders",
+          "revenue",
+          "net_revenue",
+          "cumulative_revenue",
+          "net_cumulative_revenue",
+          "average_order_value",
+          "net_average_order_value",
+          "one_time_products",
+          "one_time_products_revenue",
+          "one_time_products_net_revenue",
+          "new_subscriptions",
+          "new_subscriptions_revenue",
+          "new_subscriptions_net_revenue",
+          "renewed_subscriptions",
+          "renewed_subscriptions_revenue",
+          "renewed_subscriptions_net_revenue",
+          "active_subscriptions",
+          "monthly_recurring_revenue",
+          "committed_monthly_recurring_revenue",
+          "checkouts",
+          "succeeded_checkouts",
+          "checkouts_conversion",
+          "canceled_subscriptions",
+          "canceled_subscriptions_customer_service",
+          "canceled_subscriptions_low_quality",
+          "canceled_subscriptions_missing_features",
+          "canceled_subscriptions_switched_service",
+          "canceled_subscriptions_too_complex",
+          "canceled_subscriptions_too_expensive",
+          "canceled_subscriptions_unused",
+          "canceled_subscriptions_other"
+        ],
+        "title": "Metrics"
+      },
+      "Metrics-Output": {
         "properties": {
           "orders": {
             "$ref": "#/components/schemas/Metric"
@@ -42160,7 +43102,7 @@
             "description": "Totals for the whole selected period."
           },
           "metrics": {
-            "$ref": "#/components/schemas/Metrics",
+            "$ref": "#/components/schemas/Metrics-Output",
             "description": "Information about the returned metrics."
           }
         },
@@ -42553,28 +43495,6 @@
         ],
         "title": "MetricsTotals"
       },
-      "MissingInvoiceBillingDetails": {
-        "properties": {
-          "error": {
-            "type": "string",
-            "const": "MissingInvoiceBillingDetails",
-            "title": "Error",
-            "examples": [
-              "MissingInvoiceBillingDetails"
-            ]
-          },
-          "detail": {
-            "type": "string",
-            "title": "Detail"
-          }
-        },
-        "type": "object",
-        "required": [
-          "error",
-          "detail"
-        ],
-        "title": "MissingInvoiceBillingDetails"
-      },
       "NotOpenCheckout": {
         "properties": {
           "error": {
@@ -42596,50 +43516,6 @@
           "detail"
         ],
         "title": "NotOpenCheckout"
-      },
-      "NotPaidOrder": {
-        "properties": {
-          "error": {
-            "type": "string",
-            "const": "NotPaidOrder",
-            "title": "Error",
-            "examples": [
-              "NotPaidOrder"
-            ]
-          },
-          "detail": {
-            "type": "string",
-            "title": "Detail"
-          }
-        },
-        "type": "object",
-        "required": [
-          "error",
-          "detail"
-        ],
-        "title": "NotPaidOrder"
-      },
-      "NotPermitted": {
-        "properties": {
-          "error": {
-            "type": "string",
-            "const": "NotPermitted",
-            "title": "Error",
-            "examples": [
-              "NotPermitted"
-            ]
-          },
-          "detail": {
-            "type": "string",
-            "title": "Detail"
-          }
-        },
-        "type": "object",
-        "required": [
-          "error",
-          "detail"
-        ],
-        "title": "NotPermitted"
       },
       "OAuth2ClientConfiguration": {
         "properties": {
@@ -42749,6 +43625,10 @@
               }
             ],
             "title": "Policy Uri"
+          },
+          "default_sub_type": {
+            "$ref": "#/components/schemas/SubType",
+            "default": "organization"
           }
         },
         "type": "object",
@@ -42866,6 +43746,10 @@
               }
             ],
             "title": "Policy Uri"
+          },
+          "default_sub_type": {
+            "$ref": "#/components/schemas/SubType",
+            "default": "organization"
           },
           "client_id": {
             "type": "string",
@@ -43018,51 +43902,81 @@
           "subtotal_amount": {
             "type": "integer",
             "title": "Subtotal Amount",
-            "description": "Amount in cents, before discounts and taxes."
+            "description": "Amount in cents, before discounts and taxes.",
+            "examples": [
+              10000
+            ]
           },
           "discount_amount": {
             "type": "integer",
             "title": "Discount Amount",
-            "description": "Discount amount in cents."
+            "description": "Discount amount in cents.",
+            "examples": [
+              1000
+            ]
           },
           "net_amount": {
             "type": "integer",
             "title": "Net Amount",
-            "description": "Amount in cents, after discounts but before taxes."
+            "description": "Amount in cents, after discounts but before taxes.",
+            "examples": [
+              9000
+            ]
           },
           "tax_amount": {
             "type": "integer",
             "title": "Tax Amount",
-            "description": "Sales tax amount in cents."
+            "description": "Sales tax amount in cents.",
+            "examples": [
+              720
+            ]
           },
           "total_amount": {
             "type": "integer",
             "title": "Total Amount",
-            "description": "Amount in cents, after discounts and taxes."
+            "description": "Amount in cents, after discounts and taxes.",
+            "examples": [
+              9720
+            ]
           },
           "applied_balance_amount": {
             "type": "integer",
             "title": "Applied Balance Amount",
-            "description": "Customer's balance amount applied to this invoice. Can increase the total amount paid, if the customer has a negative balance,  or decrease it, if the customer has a positive balance.Amount in cents."
+            "description": "Customer's balance amount applied to this invoice. Can increase the total amount paid, if the customer has a negative balance,  or decrease it, if the customer has a positive balance.Amount in cents.",
+            "examples": [
+              0
+            ]
           },
           "due_amount": {
             "type": "integer",
             "title": "Due Amount",
-            "description": "Amount in cents that is due for this order."
+            "description": "Amount in cents that is due for this order.",
+            "examples": [
+              0
+            ]
           },
           "refunded_amount": {
             "type": "integer",
             "title": "Refunded Amount",
-            "description": "Amount refunded in cents."
+            "description": "Amount refunded in cents.",
+            "examples": [
+              0
+            ]
           },
           "refunded_tax_amount": {
             "type": "integer",
             "title": "Refunded Tax Amount",
-            "description": "Sales tax refunded in cents."
+            "description": "Sales tax refunded in cents.",
+            "examples": [
+              0
+            ]
           },
           "currency": {
             "type": "string",
-            "title": "Currency"
+            "title": "Currency",
+            "examples": [
+              "usd"
+            ]
           },
           "billing_reason": {
             "$ref": "#/components/schemas/OrderBillingReason"
@@ -43190,6 +44104,14 @@
             "title": "Custom Field Data",
             "description": "Key-value object storing custom field values."
           },
+          "platform_fee_amount": {
+            "type": "integer",
+            "title": "Platform Fee Amount",
+            "description": "Platform fee amount in cents.",
+            "examples": [
+              500
+            ]
+          },
           "customer": {
             "$ref": "#/components/schemas/OrderCustomer"
           },
@@ -43274,6 +44196,7 @@
           "subscription_id",
           "checkout_id",
           "metadata",
+          "platform_fee_amount",
           "customer",
           "user_id",
           "product",
@@ -43523,22 +44446,34 @@
           "label": {
             "type": "string",
             "title": "Label",
-            "description": "Description of the line item charge."
+            "description": "Description of the line item charge.",
+            "examples": [
+              "Pro Plan"
+            ]
           },
           "amount": {
             "type": "integer",
             "title": "Amount",
-            "description": "Amount in cents, before discounts and taxes."
+            "description": "Amount in cents, before discounts and taxes.",
+            "examples": [
+              10000
+            ]
           },
           "tax_amount": {
             "type": "integer",
             "title": "Tax Amount",
-            "description": "Sales tax amount in cents."
+            "description": "Sales tax amount in cents.",
+            "examples": [
+              720
+            ]
           },
           "proration": {
             "type": "boolean",
             "title": "Proration",
-            "description": "Whether this charge is due to a proration."
+            "description": "Whether this charge is due to a proration.",
+            "examples": [
+              false
+            ]
           },
           "product_price_id": {
             "anyOf": [
@@ -43806,20 +44741,32 @@
           "amount": {
             "type": "integer",
             "title": "Amount",
-            "description": "The amount of the subscription."
+            "description": "The amount of the subscription.",
+            "examples": [
+              10000
+            ]
           },
           "currency": {
             "type": "string",
             "title": "Currency",
-            "description": "The currency of the subscription."
+            "description": "The currency of the subscription.",
+            "examples": [
+              "usd"
+            ]
           },
           "recurring_interval": {
             "$ref": "#/components/schemas/SubscriptionRecurringInterval",
-            "description": "The interval at which the subscription recurs."
+            "description": "The interval at which the subscription recurs.",
+            "examples": [
+              "month"
+            ]
           },
           "status": {
             "$ref": "#/components/schemas/SubscriptionStatus",
-            "description": "The status of the subscription."
+            "description": "The status of the subscription.",
+            "examples": [
+              "active"
+            ]
           },
           "current_period_start": {
             "type": "string",
@@ -44044,7 +44991,53 @@
         "title": "OrderUpdate",
         "description": "Schema to update an order."
       },
-      "OrderUser": {
+      "OrderUser-Input": {
+        "properties": {
+          "legacy_user_id": {
+            "type": "string",
+            "format": "uuid4",
+            "title": "Legacy User Id"
+          },
+          "email": {
+            "type": "string",
+            "title": "Email"
+          },
+          "legacy_user_public_name": {
+            "type": "string",
+            "title": "Legacy User Public Name"
+          },
+          "avatar_url": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Avatar Url"
+          },
+          "github_username": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Github Username"
+          }
+        },
+        "type": "object",
+        "required": [
+          "legacy_user_id",
+          "email",
+          "legacy_user_public_name"
+        ],
+        "title": "OrderUser"
+      },
+      "OrderUser-Output": {
         "properties": {
           "id": {
             "type": "string",
@@ -44214,6 +45207,10 @@
           "notification_settings": {
             "$ref": "#/components/schemas/OrganizationNotificationSettings",
             "description": "Settings related to notifications"
+          },
+          "customer_email_settings": {
+            "$ref": "#/components/schemas/OrganizationCustomerEmailSettings",
+            "description": "Settings related to customer emails"
           }
         },
         "type": "object",
@@ -44231,7 +45228,8 @@
           "details_submitted_at",
           "feature_settings",
           "subscription_settings",
-          "notification_settings"
+          "notification_settings",
+          "customer_email_settings"
         ],
         "title": "Organization"
       },
@@ -44567,6 +45565,16 @@
                 "type": "null"
               }
             ]
+          },
+          "customer_email_settings": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/OrganizationCustomerEmailSettings"
+              },
+              {
+                "type": "null"
+              }
+            ]
           }
         },
         "type": "object",
@@ -44575,6 +45583,54 @@
           "slug"
         ],
         "title": "OrganizationCreate"
+      },
+      "OrganizationCustomerEmailSettings": {
+        "properties": {
+          "order_confirmation": {
+            "type": "boolean",
+            "title": "Order Confirmation"
+          },
+          "subscription_cancellation": {
+            "type": "boolean",
+            "title": "Subscription Cancellation"
+          },
+          "subscription_confirmation": {
+            "type": "boolean",
+            "title": "Subscription Confirmation"
+          },
+          "subscription_cycled": {
+            "type": "boolean",
+            "title": "Subscription Cycled"
+          },
+          "subscription_past_due": {
+            "type": "boolean",
+            "title": "Subscription Past Due"
+          },
+          "subscription_revoked": {
+            "type": "boolean",
+            "title": "Subscription Revoked"
+          },
+          "subscription_uncanceled": {
+            "type": "boolean",
+            "title": "Subscription Uncanceled"
+          },
+          "subscription_updated": {
+            "type": "boolean",
+            "title": "Subscription Updated"
+          }
+        },
+        "type": "object",
+        "required": [
+          "order_confirmation",
+          "subscription_cancellation",
+          "subscription_confirmation",
+          "subscription_cycled",
+          "subscription_past_due",
+          "subscription_revoked",
+          "subscription_uncanceled",
+          "subscription_updated"
+        ],
+        "title": "OrganizationCustomerEmailSettings"
       },
       "OrganizationDetails": {
         "properties": {
@@ -44686,6 +45742,115 @@
         ],
         "title": "OrganizationNotificationSettings"
       },
+      "OrganizationProfileSettings": {
+        "properties": {
+          "enabled": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Enabled",
+            "description": "If this organization has a profile enabled"
+          },
+          "description": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 160
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Description",
+            "description": "A description of the organization"
+          },
+          "featured_projects": {
+            "anyOf": [
+              {
+                "items": {
+                  "type": "string",
+                  "format": "uuid4"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Featured Projects",
+            "description": "A list of featured projects"
+          },
+          "featured_organizations": {
+            "anyOf": [
+              {
+                "items": {
+                  "type": "string",
+                  "format": "uuid4"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Featured Organizations",
+            "description": "A list of featured organizations"
+          },
+          "links": {
+            "anyOf": [
+              {
+                "items": {
+                  "type": "string",
+                  "maxLength": 2083,
+                  "minLength": 1,
+                  "format": "uri"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Links",
+            "description": "A list of links associated with the organization"
+          },
+          "subscribe": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/OrganizationSubscribePromoteSettings"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Subscription promotion settings",
+            "default": {
+              "promote": true,
+              "show_count": true,
+              "count_free": true
+            }
+          },
+          "accent_color": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Accent Color",
+            "description": "Accent color for the organization"
+          }
+        },
+        "type": "object",
+        "title": "OrganizationProfileSettings"
+      },
       "OrganizationSocialLink": {
         "properties": {
           "platform": {
@@ -44737,6 +45902,30 @@
           "-days_in_status"
         ],
         "title": "OrganizationSortProperty"
+      },
+      "OrganizationSubscribePromoteSettings": {
+        "properties": {
+          "promote": {
+            "type": "boolean",
+            "title": "Promote",
+            "description": "Promote email subscription (free)",
+            "default": true
+          },
+          "show_count": {
+            "type": "boolean",
+            "title": "Show Count",
+            "description": "Show subscription count publicly",
+            "default": true
+          },
+          "count_free": {
+            "type": "boolean",
+            "title": "Count Free",
+            "description": "Include free subscribers in total count",
+            "default": true
+          }
+        },
+        "type": "object",
+        "title": "OrganizationSubscribePromoteSettings"
       },
       "OrganizationSubscriptionSettings": {
         "properties": {
@@ -44866,6 +46055,16 @@
             "anyOf": [
               {
                 "$ref": "#/components/schemas/OrganizationNotificationSettings"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "customer_email_settings": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/OrganizationCustomerEmailSettings"
               },
               {
                 "type": "null"
@@ -45286,10 +46485,10 @@
             "items": {
               "oneOf": [
                 {
-                  "$ref": "#/components/schemas/LegacyRecurringProductPrice"
+                  "$ref": "#/components/schemas/LegacyRecurringProductPrice-Output"
                 },
                 {
-                  "$ref": "#/components/schemas/ProductPrice"
+                  "$ref": "#/components/schemas/ProductPrice-Output"
                 }
               ]
             },
@@ -45316,7 +46515,7 @@
           },
           "attached_custom_fields": {
             "items": {
-              "$ref": "#/components/schemas/AttachedCustomField"
+              "$ref": "#/components/schemas/AttachedCustomField-Output"
             },
             "type": "array",
             "title": "Attached Custom Fields",
@@ -45920,36 +47119,183 @@
         "title": "ProductMediaFileRead",
         "description": "File to be used as a product media file."
       },
-      "ProductPrice": {
+      "ProductPrice-Input": {
         "oneOf": [
           {
-            "$ref": "#/components/schemas/ProductPriceFixed"
+            "$ref": "#/components/schemas/ProductPriceFixed-Input"
           },
           {
-            "$ref": "#/components/schemas/ProductPriceCustom"
+            "$ref": "#/components/schemas/ProductPriceCustom-Input"
           },
           {
-            "$ref": "#/components/schemas/ProductPriceFree"
+            "$ref": "#/components/schemas/ProductPriceFree-Input"
           },
           {
-            "$ref": "#/components/schemas/ProductPriceSeatBased"
+            "$ref": "#/components/schemas/ProductPriceSeatBased-Input"
           },
           {
-            "$ref": "#/components/schemas/ProductPriceMeteredUnit"
+            "$ref": "#/components/schemas/ProductPriceMeteredUnit-Input"
           }
         ],
         "discriminator": {
           "propertyName": "amount_type",
           "mapping": {
-            "custom": "#/components/schemas/ProductPriceCustom",
-            "fixed": "#/components/schemas/ProductPriceFixed",
-            "free": "#/components/schemas/ProductPriceFree",
-            "metered_unit": "#/components/schemas/ProductPriceMeteredUnit",
-            "seat_based": "#/components/schemas/ProductPriceSeatBased"
+            "custom": "#/components/schemas/ProductPriceCustom-Input",
+            "fixed": "#/components/schemas/ProductPriceFixed-Input",
+            "free": "#/components/schemas/ProductPriceFree-Input",
+            "metered_unit": "#/components/schemas/ProductPriceMeteredUnit-Input",
+            "seat_based": "#/components/schemas/ProductPriceSeatBased-Input"
           }
         }
       },
-      "ProductPriceCustom": {
+      "ProductPrice-Output": {
+        "oneOf": [
+          {
+            "$ref": "#/components/schemas/ProductPriceFixed-Output"
+          },
+          {
+            "$ref": "#/components/schemas/ProductPriceCustom-Output"
+          },
+          {
+            "$ref": "#/components/schemas/ProductPriceFree-Output"
+          },
+          {
+            "$ref": "#/components/schemas/ProductPriceSeatBased-Output"
+          },
+          {
+            "$ref": "#/components/schemas/ProductPriceMeteredUnit-Output"
+          }
+        ],
+        "discriminator": {
+          "propertyName": "amount_type",
+          "mapping": {
+            "custom": "#/components/schemas/ProductPriceCustom-Output",
+            "fixed": "#/components/schemas/ProductPriceFixed-Output",
+            "free": "#/components/schemas/ProductPriceFree-Output",
+            "metered_unit": "#/components/schemas/ProductPriceMeteredUnit-Output",
+            "seat_based": "#/components/schemas/ProductPriceSeatBased-Output"
+          }
+        }
+      },
+      "ProductPriceCustom-Input": {
+        "properties": {
+          "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Created At",
+            "description": "Creation timestamp of the object."
+          },
+          "modified_at": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Modified At",
+            "description": "Last modification timestamp of the object."
+          },
+          "id": {
+            "type": "string",
+            "format": "uuid4",
+            "title": "Id",
+            "description": "The ID of the price."
+          },
+          "amount_type": {
+            "type": "string",
+            "const": "custom",
+            "title": "Amount Type"
+          },
+          "is_archived": {
+            "type": "boolean",
+            "title": "Is Archived",
+            "description": "Whether the price is archived and no longer available."
+          },
+          "product_id": {
+            "type": "string",
+            "format": "uuid4",
+            "title": "Product Id",
+            "description": "The ID of the product owning the price."
+          },
+          "legacy_type": {
+            "$ref": "#/components/schemas/ProductPriceType",
+            "deprecated": true
+          },
+          "legacy_recurring_interval": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/SubscriptionRecurringInterval"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "deprecated": true
+          },
+          "price_currency": {
+            "type": "string",
+            "title": "Price Currency",
+            "description": "The currency."
+          },
+          "minimum_amount": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Minimum Amount",
+            "description": "The minimum amount the customer can pay."
+          },
+          "maximum_amount": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Maximum Amount",
+            "description": "The maximum amount the customer can pay."
+          },
+          "preset_amount": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Preset Amount",
+            "description": "The initial amount shown to the customer."
+          }
+        },
+        "type": "object",
+        "required": [
+          "created_at",
+          "modified_at",
+          "id",
+          "amount_type",
+          "is_archived",
+          "product_id",
+          "legacy_type",
+          "legacy_recurring_interval",
+          "price_currency",
+          "minimum_amount",
+          "maximum_amount",
+          "preset_amount"
+        ],
+        "title": "ProductPriceCustom",
+        "description": "A pay-what-you-want price for a product."
+      },
+      "ProductPriceCustom-Output": {
         "properties": {
           "created_at": {
             "type": "string",
@@ -46134,7 +47480,92 @@
         "title": "ProductPriceCustomCreate",
         "description": "Schema to create a pay-what-you-want price."
       },
-      "ProductPriceFixed": {
+      "ProductPriceFixed-Input": {
+        "properties": {
+          "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Created At",
+            "description": "Creation timestamp of the object."
+          },
+          "modified_at": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Modified At",
+            "description": "Last modification timestamp of the object."
+          },
+          "id": {
+            "type": "string",
+            "format": "uuid4",
+            "title": "Id",
+            "description": "The ID of the price."
+          },
+          "amount_type": {
+            "type": "string",
+            "const": "fixed",
+            "title": "Amount Type"
+          },
+          "is_archived": {
+            "type": "boolean",
+            "title": "Is Archived",
+            "description": "Whether the price is archived and no longer available."
+          },
+          "product_id": {
+            "type": "string",
+            "format": "uuid4",
+            "title": "Product Id",
+            "description": "The ID of the product owning the price."
+          },
+          "legacy_type": {
+            "$ref": "#/components/schemas/ProductPriceType",
+            "deprecated": true
+          },
+          "legacy_recurring_interval": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/SubscriptionRecurringInterval"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "deprecated": true
+          },
+          "price_currency": {
+            "type": "string",
+            "title": "Price Currency",
+            "description": "The currency."
+          },
+          "price_amount": {
+            "type": "integer",
+            "title": "Price Amount",
+            "description": "The price in cents."
+          }
+        },
+        "type": "object",
+        "required": [
+          "created_at",
+          "modified_at",
+          "id",
+          "amount_type",
+          "is_archived",
+          "product_id",
+          "legacy_type",
+          "legacy_recurring_interval",
+          "price_currency",
+          "price_amount"
+        ],
+        "title": "ProductPriceFixed",
+        "description": "A fixed price for a product."
+      },
+      "ProductPriceFixed-Output": {
         "properties": {
           "created_at": {
             "type": "string",
@@ -46249,7 +47680,80 @@
         "title": "ProductPriceFixedCreate",
         "description": "Schema to create a fixed price."
       },
-      "ProductPriceFree": {
+      "ProductPriceFree-Input": {
+        "properties": {
+          "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Created At",
+            "description": "Creation timestamp of the object."
+          },
+          "modified_at": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Modified At",
+            "description": "Last modification timestamp of the object."
+          },
+          "id": {
+            "type": "string",
+            "format": "uuid4",
+            "title": "Id",
+            "description": "The ID of the price."
+          },
+          "amount_type": {
+            "type": "string",
+            "const": "free",
+            "title": "Amount Type"
+          },
+          "is_archived": {
+            "type": "boolean",
+            "title": "Is Archived",
+            "description": "Whether the price is archived and no longer available."
+          },
+          "product_id": {
+            "type": "string",
+            "format": "uuid4",
+            "title": "Product Id",
+            "description": "The ID of the product owning the price."
+          },
+          "legacy_type": {
+            "$ref": "#/components/schemas/ProductPriceType",
+            "deprecated": true
+          },
+          "legacy_recurring_interval": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/SubscriptionRecurringInterval"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "deprecated": true
+          }
+        },
+        "type": "object",
+        "required": [
+          "created_at",
+          "modified_at",
+          "id",
+          "amount_type",
+          "is_archived",
+          "product_id",
+          "legacy_type",
+          "legacy_recurring_interval"
+        ],
+        "title": "ProductPriceFree",
+        "description": "A free price for a product."
+      },
+      "ProductPriceFree-Output": {
         "properties": {
           "created_at": {
             "type": "string",
@@ -46359,7 +47863,125 @@
         "title": "ProductPriceMeter",
         "description": "A meter associated to a metered price."
       },
-      "ProductPriceMeteredUnit": {
+      "ProductPriceMeteredUnit-Input": {
+        "properties": {
+          "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Created At",
+            "description": "Creation timestamp of the object."
+          },
+          "modified_at": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Modified At",
+            "description": "Last modification timestamp of the object."
+          },
+          "id": {
+            "type": "string",
+            "format": "uuid4",
+            "title": "Id",
+            "description": "The ID of the price."
+          },
+          "amount_type": {
+            "type": "string",
+            "const": "metered_unit",
+            "title": "Amount Type"
+          },
+          "is_archived": {
+            "type": "boolean",
+            "title": "Is Archived",
+            "description": "Whether the price is archived and no longer available."
+          },
+          "product_id": {
+            "type": "string",
+            "format": "uuid4",
+            "title": "Product Id",
+            "description": "The ID of the product owning the price."
+          },
+          "legacy_type": {
+            "$ref": "#/components/schemas/ProductPriceType",
+            "deprecated": true
+          },
+          "legacy_recurring_interval": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/SubscriptionRecurringInterval"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "deprecated": true
+          },
+          "price_currency": {
+            "type": "string",
+            "title": "Price Currency",
+            "description": "The currency."
+          },
+          "unit_amount": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$"
+              }
+            ],
+            "title": "Unit Amount",
+            "description": "The price per unit in cents."
+          },
+          "cap_amount": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Cap Amount",
+            "description": "The maximum amount in cents that can be charged, regardless of the number of units consumed."
+          },
+          "meter_id": {
+            "type": "string",
+            "format": "uuid4",
+            "title": "Meter Id",
+            "description": "The ID of the meter associated to the price."
+          },
+          "meter": {
+            "$ref": "#/components/schemas/ProductPriceMeter",
+            "description": "The meter associated to the price."
+          }
+        },
+        "type": "object",
+        "required": [
+          "created_at",
+          "modified_at",
+          "id",
+          "amount_type",
+          "is_archived",
+          "product_id",
+          "legacy_type",
+          "legacy_recurring_interval",
+          "price_currency",
+          "unit_amount",
+          "cap_amount",
+          "meter_id",
+          "meter"
+        ],
+        "title": "ProductPriceMeteredUnit",
+        "description": "A metered, usage-based, price for a product, with a fixed unit price."
+      },
+      "ProductPriceMeteredUnit-Output": {
         "properties": {
           "created_at": {
             "type": "string",
@@ -46528,7 +48150,91 @@
         "title": "ProductPriceMeteredUnitCreate",
         "description": "Schema to create a metered price with a fixed unit price."
       },
-      "ProductPriceSeatBased": {
+      "ProductPriceSeatBased-Input": {
+        "properties": {
+          "created_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Created At",
+            "description": "Creation timestamp of the object."
+          },
+          "modified_at": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Modified At",
+            "description": "Last modification timestamp of the object."
+          },
+          "id": {
+            "type": "string",
+            "format": "uuid4",
+            "title": "Id",
+            "description": "The ID of the price."
+          },
+          "amount_type": {
+            "type": "string",
+            "const": "seat_based",
+            "title": "Amount Type"
+          },
+          "is_archived": {
+            "type": "boolean",
+            "title": "Is Archived",
+            "description": "Whether the price is archived and no longer available."
+          },
+          "product_id": {
+            "type": "string",
+            "format": "uuid4",
+            "title": "Product Id",
+            "description": "The ID of the product owning the price."
+          },
+          "legacy_type": {
+            "$ref": "#/components/schemas/ProductPriceType",
+            "deprecated": true
+          },
+          "legacy_recurring_interval": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/SubscriptionRecurringInterval"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "deprecated": true
+          },
+          "price_currency": {
+            "type": "string",
+            "title": "Price Currency",
+            "description": "The currency."
+          },
+          "seat_tiers": {
+            "$ref": "#/components/schemas/ProductPriceSeatTiers",
+            "description": "Tiered pricing based on seat quantity"
+          }
+        },
+        "type": "object",
+        "required": [
+          "created_at",
+          "modified_at",
+          "id",
+          "amount_type",
+          "is_archived",
+          "product_id",
+          "legacy_type",
+          "legacy_recurring_interval",
+          "price_currency",
+          "seat_tiers"
+        ],
+        "title": "ProductPriceSeatBased",
+        "description": "A seat-based price for a product."
+      },
+      "ProductPriceSeatBased-Output": {
         "properties": {
           "created_at": {
             "type": "string",
@@ -47191,28 +48897,6 @@
         ],
         "title": "RefundedAlready"
       },
-      "ResourceNotFound": {
-        "properties": {
-          "error": {
-            "type": "string",
-            "const": "ResourceNotFound",
-            "title": "Error",
-            "examples": [
-              "ResourceNotFound"
-            ]
-          },
-          "detail": {
-            "type": "string",
-            "title": "Detail"
-          }
-        },
-        "type": "object",
-        "required": [
-          "error",
-          "detail"
-        ],
-        "title": "ResourceNotFound"
-      },
       "RevokeTokenResponse": {
         "properties": {},
         "type": "object",
@@ -47692,20 +49376,32 @@
           "amount": {
             "type": "integer",
             "title": "Amount",
-            "description": "The amount of the subscription."
+            "description": "The amount of the subscription.",
+            "examples": [
+              10000
+            ]
           },
           "currency": {
             "type": "string",
             "title": "Currency",
-            "description": "The currency of the subscription."
+            "description": "The currency of the subscription.",
+            "examples": [
+              "usd"
+            ]
           },
           "recurring_interval": {
             "$ref": "#/components/schemas/SubscriptionRecurringInterval",
-            "description": "The interval at which the subscription recurs."
+            "description": "The interval at which the subscription recurs.",
+            "examples": [
+              "month"
+            ]
           },
           "status": {
             "$ref": "#/components/schemas/SubscriptionStatus",
-            "description": "The status of the subscription."
+            "description": "The status of the subscription.",
+            "examples": [
+              "active"
+            ]
           },
           "current_period_start": {
             "type": "string",
@@ -47947,10 +49643,10 @@
             "items": {
               "oneOf": [
                 {
-                  "$ref": "#/components/schemas/LegacyRecurringProductPrice"
+                  "$ref": "#/components/schemas/LegacyRecurringProductPrice-Output"
                 },
                 {
-                  "$ref": "#/components/schemas/ProductPrice"
+                  "$ref": "#/components/schemas/ProductPrice-Output"
                 }
               ]
             },
@@ -48329,28 +50025,6 @@
           "subscription_id"
         ],
         "title": "SubscriptionCycledMetadata"
-      },
-      "SubscriptionLocked": {
-        "properties": {
-          "error": {
-            "type": "string",
-            "const": "SubscriptionLocked",
-            "title": "Error",
-            "examples": [
-              "SubscriptionLocked"
-            ]
-          },
-          "detail": {
-            "type": "string",
-            "title": "Detail"
-          }
-        },
-        "type": "object",
-        "required": [
-          "error",
-          "detail"
-        ],
-        "title": "SubscriptionLocked"
       },
       "SubscriptionMeter": {
         "properties": {
@@ -48836,7 +50510,53 @@
         ],
         "title": "SubscriptionUpdateTrial"
       },
-      "SubscriptionUser": {
+      "SubscriptionUser-Input": {
+        "properties": {
+          "legacy_user_id": {
+            "type": "string",
+            "format": "uuid4",
+            "title": "Legacy User Id"
+          },
+          "email": {
+            "type": "string",
+            "title": "Email"
+          },
+          "legacy_user_public_name": {
+            "type": "string",
+            "title": "Legacy User Public Name"
+          },
+          "avatar_url": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Avatar Url"
+          },
+          "github_username": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Github Username"
+          }
+        },
+        "type": "object",
+        "required": [
+          "legacy_user_id",
+          "email",
+          "legacy_user_public_name"
+        ],
+        "title": "SubscriptionUser"
+      },
+      "SubscriptionUser-Output": {
         "properties": {
           "id": {
             "type": "string",
@@ -49118,26 +50838,6 @@
       },
       "UserEvent": {
         "properties": {
-          "metadata": {
-            "additionalProperties": {
-              "anyOf": [
-                {
-                  "type": "string"
-                },
-                {
-                  "type": "integer"
-                },
-                {
-                  "type": "number"
-                },
-                {
-                  "type": "boolean"
-                }
-              ]
-            },
-            "type": "object",
-            "title": "Metadata"
-          },
           "id": {
             "type": "string",
             "format": "uuid4",
@@ -49210,11 +50910,13 @@
             "const": "user",
             "title": "Source",
             "description": "The source of the event. `system` events are created by Polar. `user` events are the one you create through our ingestion API."
+          },
+          "metadata": {
+            "$ref": "#/components/schemas/EventMetadataOutput"
           }
         },
         "type": "object",
         "required": [
-          "metadata",
           "id",
           "timestamp",
           "organization_id",
@@ -49222,7 +50924,8 @@
           "customer",
           "external_customer_id",
           "name",
-          "source"
+          "source",
+          "metadata"
         ],
         "title": "UserEvent",
         "description": "An event you created through the ingestion API."
@@ -50661,6 +52364,160 @@
         ],
         "title": "WebhookSubscriptionUpdatedPayload",
         "description": "Sent when a subscription is updated. This event fires for all changes to the subscription, including renewals.\n\nIf you want more specific events, you can listen to `subscription.active`, `subscription.canceled`, and `subscription.revoked`.\n\nTo listen specifically for renewals, you can listen to `order.created` events and check the `billing_reason` field.\n\n**Discord & Slack support:** On cancellation and revocation. Renewals are skipped."
+      },
+      "polar__exceptions__AlreadyCanceledSubscription": {
+        "properties": {
+          "error": {
+            "type": "string",
+            "const": "AlreadyCanceledSubscription",
+            "title": "Error",
+            "examples": [
+              "AlreadyCanceledSubscription"
+            ]
+          },
+          "detail": {
+            "type": "string",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "required": [
+          "error",
+          "detail"
+        ],
+        "title": "AlreadyCanceledSubscription"
+      },
+      "polar__exceptions__InvoiceAlreadyExists": {
+        "properties": {
+          "error": {
+            "type": "string",
+            "const": "InvoiceAlreadyExists",
+            "title": "Error",
+            "examples": [
+              "InvoiceAlreadyExists"
+            ]
+          },
+          "detail": {
+            "type": "string",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "required": [
+          "error",
+          "detail"
+        ],
+        "title": "InvoiceAlreadyExists"
+      },
+      "polar__exceptions__MissingInvoiceBillingDetails": {
+        "properties": {
+          "error": {
+            "type": "string",
+            "const": "MissingInvoiceBillingDetails",
+            "title": "Error",
+            "examples": [
+              "MissingInvoiceBillingDetails"
+            ]
+          },
+          "detail": {
+            "type": "string",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "required": [
+          "error",
+          "detail"
+        ],
+        "title": "MissingInvoiceBillingDetails"
+      },
+      "polar__exceptions__NotPaidOrder": {
+        "properties": {
+          "error": {
+            "type": "string",
+            "const": "NotPaidOrder",
+            "title": "Error",
+            "examples": [
+              "NotPaidOrder"
+            ]
+          },
+          "detail": {
+            "type": "string",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "required": [
+          "error",
+          "detail"
+        ],
+        "title": "NotPaidOrder"
+      },
+      "polar__exceptions__NotPermitted": {
+        "properties": {
+          "error": {
+            "type": "string",
+            "const": "NotPermitted",
+            "title": "Error",
+            "examples": [
+              "NotPermitted"
+            ]
+          },
+          "detail": {
+            "type": "string",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "required": [
+          "error",
+          "detail"
+        ],
+        "title": "NotPermitted"
+      },
+      "polar__exceptions__ResourceNotFound": {
+        "properties": {
+          "error": {
+            "type": "string",
+            "const": "ResourceNotFound",
+            "title": "Error",
+            "examples": [
+              "ResourceNotFound"
+            ]
+          },
+          "detail": {
+            "type": "string",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "required": [
+          "error",
+          "detail"
+        ],
+        "title": "ResourceNotFound"
+      },
+      "polar__exceptions__SubscriptionLocked": {
+        "properties": {
+          "error": {
+            "type": "string",
+            "const": "SubscriptionLocked",
+            "title": "Error",
+            "examples": [
+              "SubscriptionLocked"
+            ]
+          },
+          "detail": {
+            "type": "string",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "required": [
+          "error",
+          "detail"
+        ],
+        "title": "SubscriptionLocked"
       },
       "MetadataQuery": {
         "anyOf": [
